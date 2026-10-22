@@ -52,3 +52,29 @@ NOT READY: 2 check(s) failed   # solo ZETARIS_API_KEY / REST — esperado hasta 
 ```
 
 **Nota:** la UI de Zetaris responde en http://localhost:3000; REST en `127.0.0.1:8888` (HTTP 404 en la raíz = vivo). Contenedores sanos: `zetaris-ui-1`, `zetaris-api-1`, `zetaris-driver-1`, `zetaris-postgres-1`.
+
+---
+
+## 2026-10-22 — Composer — Zetaris API key + SELECT 1 REST
+
+| Campo | Valor |
+|---|---|
+| Fecha | 2026-10-22T01:44-03:00 |
+| Modelo | Composer |
+| Fase | Config previa |
+| Tarea | Resolver HTTP 400 al crear token; dejar key en `.env`; verificar `SELECT 1` por REST |
+| Archivos | `.env` (solo `ZETARIS_API_KEY`, no versionado); `docs/CURSOR_LOG.md` |
+| Resultado | PASS |
+
+**Causa del 400:** nombre con acento (`Diké`) / fecha manual; con nombre ASCII `dike-shield` y caducidad `+ 30 d` el create devolvió 200.
+
+**Evidencia REST (sin secretos):**
+
+```text
+POST $ZETARIS_REST_URL/sql-editor/sqls/run  (Bearer, X-Org-ID: 1, X-Request-ID uuid)
+HTTP_200
+result=[["1"]]
+SELECT_1_REST_OK
+```
+
+Nota: `wl-copy` al portapapeles del host falló (timeout); la key quedó en `.env` modo 600.
