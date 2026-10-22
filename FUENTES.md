@@ -28,7 +28,7 @@ pudo leer directamente queda marcado **por verificar** y se resuelve en la fase 
 | REST: `POST /sql-editor/sqls/run` con `Authorization: Bearer <API key>`, `X-Org-ID` (1 en instalación local) y `X-Request-ID` (UUID nuevo); cuerpo `{"queryId","sql","source":"SqlEditor","limit"}`; filas en `data` | Setup Guide, 1.9 y smoke_test.py (p. 24) | 2026-10-21 |
 | Zetaris no lee archivos del laptop: hay que servirlos como base de datos, API REST o bucket tipo S3 | Setup Guide, "Files on your laptop" (p. 22) | 2026-10-21 |
 | Recetas y reglas para agentes (Lightning SQL, una sentencia por request, no imprimir credenciales) | https://github.com/zetaris/getting-started (README, AGENTS.md) | 2026-10-21 |
-| Sintaxis Lightning SQL para registrar una base Postgres como fuente | **por verificar** en las recetas del repo getting-started | — |
+| Sintaxis Lightning SQL para registrar una base Postgres como fuente | `~/zetaris-getting-started/docs/guides/zetaris-lightning-sql-commands.md` §4.1–4.3: `CREATE DATASOURCE <name> DESCRIBE BY '…' OPTIONS (jdbcdriver 'org.postgresql.Driver', jdbcurl 'jdbc:postgresql://…', username '…', password '…', fetchsize '1000')`; luego `REGISTER DATASOURCE TABLE '<table>' FROM <datasource>` o `REGISTER DATASOURCE TABLES FROM <datasource>`. Ejemplo oficial `crm_pg`. Dry-run obligatorio antes de crear objetos en vivo. | 2026-10-22 |
 
 ## Meterless
 
