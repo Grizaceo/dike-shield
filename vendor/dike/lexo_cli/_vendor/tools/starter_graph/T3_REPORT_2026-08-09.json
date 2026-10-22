@@ -1,0 +1,65 @@
+{
+  "phase": "Diké T3 — LexO Starter Graph Package v1",
+  "date": "2026-08-09",
+  "stop_reason": "all_tests_pass AND manifest_valido AND snapshot_verificado",
+  "epistemic_state": {
+    "VERIFICADO": [
+      "https://datos.bcn.cl/sparql respondió HTTP 200 y consultas SPARQL JSON sin autenticación.",
+      "La ontología bcn-norms es alcanzable por redirección a /ontologies/bcn-norms/bcn-norms.rdf.",
+      "Ley 21.719 mantiene leychileCode 1209272, publicación 2024-12-13 y promulgación 2024-11-25.",
+      "El XML público obtxml respondió HTTP 200 con User-Agent y contiene EstructuraFuncional tipoParte=Artículo.",
+      "La suite T3 final pasó 9/9 en 0.37 s.",
+      "El mini snapshot live pasó manifest verify y validate con cero errores.",
+      "La auditoría independiente kanban T3-D reportó PASS 9/9 criterios usando ollama-cloud/deepseek-v4-flash:0731."
+    ],
+    "CORREGIDO_RESPECTO_FASE0": [
+      "MAX(publishDate) sin filtro devuelve un outlier corrupto 2878-11-28; el build filtra por fecha de obtención. Con filtro, datasetVersion observado=2026-06-06.",
+      "NombreParte y TituloParte están anidados bajo Metadatos en XML real; el parser usa búsqueda descendiente y produce eId art_primero/art_transitorio_primero."
+    ],
+    "DERIVADO_EXPLICITO": [
+      "La vigencia v1 usa [from,to): from=versionDate/XML fechaVersion; to=null cuando no existe fin verificado. No inventa una fecha de derogación.",
+      "Las relaciones externas cuyo otro extremo no está en el pack se omiten y se cuentan para preservar no-huérfanas."
+    ]
+  },
+  "location_decision": "tools/starter_graph/ vive en la raíz Vault/Lexo junto al pichanga porque es infraestructura transversal de adquisición/empaquetado/validación. lexo_cli debe consumirla mediante adaptador, no ser dueño del formato.",
+  "deliverables": {
+    "implementation": "tools/starter_graph/",
+    "tests": [
+      "tests/test_starter_build.py",
+      "tests/test_starter_manifest.py",
+      "tests/test_starter_validate.py",
+      "tests/test_starter_update.py"
+    ],
+    "public_fixture": "tests/fixtures/starter_bcn_mini.json",
+    "live_snapshot": "tools/starter_graph/examples/mini_snapshot_live/",
+    "manifest_example": "tools/starter_graph/examples/mini_snapshot_live/MANIFEST.json",
+    "manifest_sha256": "93f8d5f5075075d9e3663b1723fe138351aa50d0969caeea610965b647c65b63",
+    "live_snapshot_counts": {
+      "normas": 1,
+      "articulos": 11,
+      "edges": 23
+    },
+    "live_build_stop_reason": "build_hash_validate_ok"
+  },
+  "legal_manifest_checks": {
+    "attribution": "Ley Chile – Biblioteca del Congreso Nacional",
+    "retrieval_date_present": true,
+    "component_licenses_present": true,
+    "ai_training_warning_present": true,
+    "sparql_source_and_conditions_version_present": true,
+    "bcn_ontology_copied": false
+  },
+  "safety": {
+    "leychile_api_key_used": false,
+    "sentences_or_case_data_downloaded": false,
+    "private_vault_used_as_corpus": false,
+    "commit_or_push_performed": false
+  },
+  "pending": [
+    "Automatizar la re-verificación/versionado de las condiciones BCN en cada release; v1 permite inyectar conditions_version, pero no scrapea el texto legal de condiciones.",
+    "La versión declarada 'bcn-norms v1.1' no pudo confirmarse desde owl:versionInfo; se verificó accesibilidad y contenido, no un número de versión ontológica.",
+    "Expandir chile-base y laboral solo después de aprobar un catálogo normativo curado; v1 deja dictámenes DT en catalog-only y no incorpora corpus.",
+    "Cuando la consulta de relaciones BCN falle por timeout, el build conserva advertencia de cobertura degradada; una release amplia debería exigir una política explícita de completitud/reintento.",
+    "El serializador JCS v1 está deliberadamente restringido a JSON sin floats; si el esquema futuro incorpora decimales, integrar una implementación RFC 8785 completa."
+  ]
+}

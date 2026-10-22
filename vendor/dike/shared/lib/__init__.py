@@ -1,0 +1,1 @@
+# LexO-Alpha shared library

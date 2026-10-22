@@ -1,0 +1,79 @@
+{
+  "format": "lexo-materias-catalog-v1",
+  "version": "2026-08-20",
+  "materias": {
+    "civil": {
+      "label": "Derecho Civil",
+      "descripcion": "Código Civil, procedimiento civil, familia, consumidor y protección de datos.",
+      "cuerpos": ["cc", "cpc", "cot", "ley_19496", "ley_19628", "ley_19968", "ley_20066", "ley_19828", "ley_21719"]
+    },
+    "laboral": {
+      "label": "Derecho Laboral",
+      "descripcion": "Código del Trabajo, accidentes laborales, seguro de desempleo y previsión.",
+      "cuerpos": ["ct", "ley_16744", "ley_17322", "ley_19728", "dl_3500"]
+    },
+    "penal": {
+      "label": "Derecho Penal",
+      "descripcion": "Código Penal, proceso penal, estupefacientes y penas sustitutivas.",
+      "cuerpos": ["cp", "cpp", "ley_20000", "ley_18216", "cot"]
+    },
+    "tributario": {
+      "label": "Derecho Tributario",
+      "descripcion": "Código Tributario y normas de impuestos.",
+      "cuerpos": ["ctrib"]
+    },
+    "comercial": {
+      "label": "Derecho Comercial",
+      "descripcion": "Código de Comercio, sociedades, títulos de crédito y derecho concursal.",
+      "cuerpos": ["ccom", "ley_18046", "ley_18092", "ley_20720"]
+    },
+    "constitucional": {
+      "label": "Derecho Constitucional",
+      "descripcion": "Constitución Política de la República.",
+      "cuerpos": ["cpr"]
+    },
+    "ambiental": {
+      "label": "Derecho Ambiental",
+      "descripcion": "Código de Aguas y normas de recursos naturales.",
+      "cuerpos": ["dfl_1122"]
+    },
+    "previsional": {
+      "label": "Previsión y Seguridad Social",
+      "descripcion": "Pensiones, accidentes del trabajo y cobranza de cotizaciones.",
+      "cuerpos": ["dl_3500", "ley_16744", "ley_17322", "ley_19728"]
+    },
+    "datos_personales": {
+      "label": "Protección de Datos Personales",
+      "descripcion": "Ley 21.719 y Ley 19.628 sobre vida privada.",
+      "cuerpos": ["ley_21719", "ley_19628"]
+    }
+  },
+  "cuerpos": {
+    "cc": {"label": "Código Civil", "materias": ["civil"]},
+    "cpc": {"label": "Código de Procedimiento Civil", "materias": ["civil"]},
+    "cot": {"label": "Código Orgánico de Tribunales", "materias": ["civil", "penal"]},
+    "cp": {"label": "Código Penal", "materias": ["penal"]},
+    "cpp": {"label": "Código Procesal Penal", "materias": ["penal"]},
+    "ct": {"label": "Código del Trabajo", "materias": ["laboral"]},
+    "ccom": {"label": "Código de Comercio", "materias": ["comercial"]},
+    "ctrib": {"label": "Código Tributario", "materias": ["tributario"]},
+    "cpr": {"label": "Constitución Política de la República", "materias": ["constitucional"]},
+    "dfl_1122": {"label": "Código de Aguas", "materias": ["ambiental"]},
+    "dl_3500": {"label": "DL 3.500 — Sistema de Pensiones", "materias": ["laboral", "previsional"]},
+    "ley_16744": {"label": "Ley 16.744 — Accidentes del Trabajo", "materias": ["laboral", "previsional"]},
+    "ley_17322": {"label": "Ley 17.322 — Cobranza de Cotizaciones", "materias": ["laboral", "previsional"]},
+    "ley_19728": {"label": "Ley 19.728 — Seguro de Desempleo", "materias": ["laboral", "previsional"]},
+    "ley_19496": {"label": "Ley 19.496 — Protección al Consumidor", "materias": ["civil"]},
+    "ley_19628": {"label": "Ley 19.628 — Vida Privada", "materias": ["civil", "datos_personales"]},
+    "ley_21719": {"label": "Ley 21.719 — Datos Personales", "materias": ["civil", "datos_personales"]},
+    "ley_19968": {"label": "Ley 19.968 — Tribunales de Familia", "materias": ["civil"]},
+    "ley_20066": {"label": "Ley 20.066 — Violencia Intrafamiliar", "materias": ["civil"]},
+    "ley_20000": {"label": "Ley 20.000 — Estupefacientes", "materias": ["penal"]},
+    "ley_18216": {"label": "Ley 18.216 — Penas Sustitutivas", "materias": ["penal"]},
+    "ley_18046": {"label": "Ley 18.046 — Sociedades Anónimas", "materias": ["comercial"]},
+    "ley_18092": {"label": "Ley 18.092 — Letra de Cambio y Pagaré", "materias": ["comercial"]},
+    "ley_20720": {"label": "Ley 20.720 — Reorganización y Liquidación", "materias": ["comercial"]},
+    "ley_19828": {"label": "Ley 19.828 — Servicio Nacional del Adulto Mayor", "materias": ["civil"]}
+  },
+  "base_siempre_activa": ["cpr"]
+}

@@ -1,0 +1,4029 @@
+{
+ "registry": "norms",
+ "version": "1.0.0",
+ "decision": "slugs curados (Cristóbal, 2026-09-29), reglas R1–R4 de S28",
+ "fuente_bcn": "SPARQL datos.bcn.cl, solo metadatos (por idNorma, y por tipo y número en la sesión F1), 2026-09-29 (docs/research/gid_unificado_20260928/registro_normas/bcn_metadatos/)",
+ "conteo": {
+  "normas": 153,
+  "estado_alta": {
+   "propuesta": 151,
+   "bloqueada": 2
+  },
+  "verificacion_id_norma": {
+   "confirmado_por_pack": 23,
+   "verificado_bcn_2026-09-29": 104,
+   "verificado_bcn_2026-09-29_busqueda": 25,
+   "contenido_ajeno": 1
+  },
+  "regla": {
+   "R1": 14,
+   "R1-constitucion": 1,
+   "R4": 14,
+   "R3": 1,
+   "ninguna": 1,
+   "R2": 122
+  },
+  "origen": {
+   "umj": 141,
+   "grafo": 10,
+   "review_graph": 2
+  }
+ },
+ "normas": [
+  {
+   "umj_codigo": "cc",
+   "codigos_legado": [
+    "cc"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_civil",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "172986",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/Codigo_Civil",
+   "n_unidades_umj": 5599,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ccom",
+   "codigos_legado": [
+    "ccom"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_comercio",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1974",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/Codigo_Comercio",
+   "n_unidades_umj": 5147,
+   "notas": []
+  },
+  {
+   "umj_codigo": "codigo_aeronautico",
+   "codigos_legado": [
+    "codigo_aeronautico"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_aeronautico",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30287",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia/1990-02-08/18916",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia",
+    "fecha_publicacion": "1990-02-08",
+    "numero": "18916",
+    "titulo": "APRUEBA CODIGO AERONAUTICO",
+    "etiquetas": [
+     "Ley 18916"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Codigo_Aeronautico",
+   "n_unidades_umj": 2397,
+   "notas": []
+  },
+  {
+   "umj_codigo": "codigo_dipr",
+   "codigos_legado": [
+    "codigo_dipr"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_derecho_internacional_privado",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "12820",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dto/ministerio-de-relaciones-exteriores/1934-04-25/374",
+    "tipo_bcn": "dto",
+    "organismo_bcn": "ministerio-de-relaciones-exteriores",
+    "fecha_publicacion": "1934-04-25",
+    "numero": "374",
+    "titulo": "CODIGO DE DERECHO INTERNACIONAL PRIVADO",
+    "etiquetas": [
+     "CODIGO DE DERECHO INTERNACIONAL PRIVADO",
+     "Decreto 374"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Codigo_DIPr",
+   "n_unidades_umj": 2564,
+   "notas": []
+  },
+  {
+   "umj_codigo": "codigo_justicia_militar",
+   "codigos_legado": [
+    "codigo_justicia_militar"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_justicia_militar",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "18914",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dto/ministerio-de-justicia/1944-12-19/2226",
+    "tipo_bcn": "dto",
+    "organismo_bcn": "ministerio-de-justicia",
+    "fecha_publicacion": "1944-12-19",
+    "numero": "2226",
+    "titulo": "CODIGO DE JUSTICIA MILITAR",
+    "etiquetas": [
+     "CODIGO DE JUSTICIA MILITAR",
+     "Decreto 2226"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Codigo_Justicia_Militar",
+   "n_unidades_umj": 4292,
+   "notas": []
+  },
+  {
+   "umj_codigo": "codigo_mineria",
+   "codigos_legado": [
+    "codigo_mineria"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_mineria",
+   "regla": "R1",
+   "estado_alta": "bloqueada",
+   "bloqueo": "contenido histórico: el idNorma 1133574 y el texto del Vault son el Código de Minería de 1888; el vigente es la Ley 18.248. No se mintea hasta reemplazar el texto.",
+   "id_norma_bcn": "1133574",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/cod/no-especificado/1888-12-24/de-minería",
+    "tipo_bcn": "cod",
+    "organismo_bcn": "no-especificado",
+    "fecha_publicacion": "1888-12-24",
+    "numero": "de-minería",
+    "titulo": "CÓDIGO DE MINERÍA",
+    "etiquetas": [
+     "Codigo de minería",
+     "Código de minería"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Codigo_Mineria",
+   "n_unidades_umj": 1222,
+   "notas": []
+  },
+  {
+   "umj_codigo": "codigo_sanitario",
+   "codigos_legado": [
+    "codigo_sanitario"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_sanitario",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "5595",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dfl/ministerio-de-salud-publica/1968-01-31/725",
+    "tipo_bcn": "dfl",
+    "organismo_bcn": "ministerio-de-salud-publica",
+    "fecha_publicacion": "1968-01-31",
+    "numero": "725",
+    "titulo": "CODIGO SANITARIO",
+    "etiquetas": [
+     "CODIGO SANITARIO",
+     "Decreto Con Fuerza De Ley 725"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Codigo_Sanitario",
+   "n_unidades_umj": 3079,
+   "notas": []
+  },
+  {
+   "umj_codigo": "cot",
+   "codigos_legado": [
+    "cot"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_organico_tribunales",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "25563",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/Organica_Poder_Judicial",
+   "n_unidades_umj": 1504,
+   "notas": []
+  },
+  {
+   "umj_codigo": "cp",
+   "codigos_legado": [
+    "cp"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_penal",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1984",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/Codigo_Penal",
+   "n_unidades_umj": 1222,
+   "notas": []
+  },
+  {
+   "umj_codigo": "cpc",
+   "codigos_legado": [
+    "cpc"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_procedimiento_civil",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "22740",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/CPC",
+   "n_unidades_umj": 2134,
+   "notas": []
+  },
+  {
+   "umj_codigo": "cpp",
+   "codigos_legado": [
+    "cpp"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_procesal_penal",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "176595",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/CPP",
+   "n_unidades_umj": 1157,
+   "notas": []
+  },
+  {
+   "umj_codigo": "cpr",
+   "codigos_legado": [
+    "cpr"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "constitucion_politica",
+   "regla": "R1-constitucion",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "242302",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/CPR",
+   "n_unidades_umj": 2291,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ct",
+   "codigos_legado": [
+    "ct"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_trabajo",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "207436",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/Codigo_Trabajo",
+   "n_unidades_umj": 5182,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ctrib",
+   "codigos_legado": [
+    "ctrib"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_tributario",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "6374",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/Codigo_Tributario",
+   "n_unidades_umj": 4107,
+   "notas": []
+  },
+  {
+   "umj_codigo": "decreto_106",
+   "codigos_legado": [
+    "decreto_106"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "decreto_106_2004_minvivienda",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "229755",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dto/ministerio-de-vivienda-y-urbanismo/2004-09-01/106",
+    "tipo_bcn": "dto",
+    "organismo_bcn": "ministerio-de-vivienda-y-urbanismo",
+    "fecha_publicacion": "2004-09-01",
+    "numero": "106",
+    "titulo": "DISPONE BENEFICIOS QUE INDICA PARA ADULTOS MAYORES DEUDORES DE LOS SERVIU",
+    "etiquetas": []
+   },
+   "vault_dir": "Vigente/Ley_General/Decreto_106",
+   "n_unidades_umj": 25,
+   "notas": [
+    "El frontmatter de articulos/*.md traía el idNorma ajeno 216309 (Decreto 94 de 2003). El correcto, 229755, sale del frontmatter de full_text.md del Vault y BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": "decreto_115",
+   "codigos_legado": [
+    "decreto_115"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "decreto_115_2003_minsegpres",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "217645",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dto/ministerio-secretaria-general-de-la-presidencia/2003-11-24/115",
+    "tipo_bcn": "dto",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2003-11-24",
+    "numero": "115",
+    "titulo": "APRUEBA REGLAMENTO DEL FONDO NACIONAL DEL ADULTO MAYOR",
+    "etiquetas": [
+     "Decreto 115"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Decreto_115",
+   "n_unidades_umj": 65,
+   "notas": [
+    "El frontmatter de articulos/*.md traía el idNorma ajeno 216309 (Decreto 94 de 2003). El correcto, 217645, sale del frontmatter de full_text.md del Vault y BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": "decreto_14",
+   "codigos_legado": [
+    "decreto_14"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "decreto_14_2010_minsalud",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1015936",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dto/ministerio-de-salud_subsecretaria-de-salud-publica/2010-08-05/14",
+    "tipo_bcn": "dto",
+    "organismo_bcn": "ministerio-de-salud",
+    "fecha_publicacion": "2010-08-05",
+    "numero": "14",
+    "titulo": "APRUEBA REGLAMENTO DE ESTABLECIMIENTOS DE LARGA ESTADÍA PARA ADULTOS MAYORES",
+    "etiquetas": [
+     "APRUEBA REGLAMENTO DE ESTABLECIMIENTOS DE LARGA ESTADÍA PARA ADULTOS MAYORES",
+     "Decreto 14"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Decreto_14",
+   "n_unidades_umj": 212,
+   "notas": [
+    "El frontmatter de articulos/*.md traía el idNorma ajeno 216309 (Decreto 94 de 2003). El correcto, 1015936, sale del frontmatter de full_text.md del Vault y BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": "decreto_92",
+   "codigos_legado": [
+    "decreto_92"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "decreto_92_2003_minsegpres",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "217789",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dto/ministerio-secretaria-general-de-la-presidencia/2003-11-26/92",
+    "tipo_bcn": "dto",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2003-11-26",
+    "numero": "92",
+    "titulo": "APRUEBA REGLAMENTO DEL COMITE CONSULTIVO DEL ADULTO MAYOR",
+    "etiquetas": []
+   },
+   "vault_dir": "Vigente/Ley_General/Decreto_92",
+   "n_unidades_umj": 57,
+   "notas": [
+    "El frontmatter de articulos/*.md traía el idNorma ajeno 216309 (Decreto 94 de 2003). El correcto, 217789, sale del frontmatter de full_text.md del Vault y BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": "decreto_93",
+   "codigos_legado": [
+    "decreto_93"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "decreto_93_2003_minsegpres",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "217790",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dto/ministerio-secretaria-general-de-la-presidencia/2003-11-26/93",
+    "tipo_bcn": "dto",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2003-11-26",
+    "numero": "93",
+    "titulo": "APRUEBA REGLAMENTO DEL REGISTRO DE PRESTADORES DE SERVICIOS REMUNERADOS O NO A ADULTOS MAYORES",
+    "etiquetas": [
+     "Decreto 93"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Decreto_93",
+   "n_unidades_umj": 113,
+   "notas": [
+    "El frontmatter de articulos/*.md traía el idNorma ajeno 216309 (Decreto 94 de 2003). El correcto, 217790, sale del frontmatter de full_text.md del Vault y BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": "decreto_94",
+   "codigos_legado": [
+    "decreto_94"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "decreto_94_2003_minsegpres",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "216309",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dto/ministerio-secretaria-general-de-la-presidencia/2003-10-25/94",
+    "tipo_bcn": "dto",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2003-10-25",
+    "numero": "94",
+    "titulo": "APRUEBA REGLAMENTO DEL REGISTRO DE ASOCIACIONES DE ADULTOS MAYORES",
+    "etiquetas": []
+   },
+   "vault_dir": "Vigente/Ley_General/Decreto_94",
+   "n_unidades_umj": 41,
+   "notas": [
+    "216309 es el idNorma propio de este decreto (Decreto 94 de 2003, SEGPRES); las otras 12 normas lo heredaron por error en el frontmatter de articulos/*.md."
+   ]
+  },
+  {
+   "umj_codigo": "decreto_95",
+   "codigos_legado": [
+    "decreto_95"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "decreto_95_2004_minsegpres",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "225472",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dto/ministerio-secretaria-general-de-la-presidencia/2004-05-22/95",
+    "tipo_bcn": "dto",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2004-05-22",
+    "numero": "95",
+    "titulo": "APRUEBA REGLAMENTO DE LOS COMITES REGIONALES PARA EL ADULTO MAYOR",
+    "etiquetas": []
+   },
+   "vault_dir": "Vigente/Ley_General/Decreto_95",
+   "n_unidades_umj": 52,
+   "notas": [
+    "El frontmatter de articulos/*.md traía el idNorma ajeno 216309 (Decreto 94 de 2003). El correcto, 225472, sale del frontmatter de full_text.md del Vault y BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": "dfl_1122",
+   "codigos_legado": [
+    "dfl_1122"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "codigo_aguas",
+   "regla": "R1",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "5605",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dfl/ministerio-de-justicia/1981-10-29/1122",
+    "tipo_bcn": "dfl",
+    "organismo_bcn": "ministerio-de-justicia",
+    "fecha_publicacion": "1981-10-29",
+    "numero": "1122",
+    "titulo": "FIJA TEXTO DEL CODIGO DE AGUAS",
+    "etiquetas": [
+     "Decreto Con Fuerza De Ley 1122"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/DFL_1122",
+   "n_unidades_umj": 732,
+   "notas": [
+    "El frontmatter de articulos/*.md traía el idNorma ajeno 216309 (Decreto 94 de 2003). El correcto, 5605, sale de la caché BCN del Vault (_bcn_cache/norma_5605.json) y BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": "dfl_1_libre_competencia",
+   "codigos_legado": [
+    "dfl_1_libre_competencia"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "dfl_1_2005_mineconomia",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "236106",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dfl/ministerio-de-economia-fomento-y-reconstruccion_subsecretaria-de-economia-fomento-y-reconstruccion/2005-03-07/1",
+    "tipo_bcn": "dfl",
+    "organismo_bcn": "ministerio-de-economia-fomento-y-reconstruccion",
+    "fecha_publicacion": "2005-03-07",
+    "numero": "1",
+    "titulo": "FIJA EL TEXTO REFUNDIDO, COORDINADO Y SISTEMATIZADO DEL DECRETO LEY Nº211, DE 1973",
+    "etiquetas": [
+     "Decreto Con Fuerza De Ley 1",
+     "FIJA EL TEXTO REFUNDIDO, COORDINADO Y SISTEMATIZADO DEL DECRETO LEY Nº211, DE 1973"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/DFL_1_2007_Libre_Competencia",
+   "n_unidades_umj": 806,
+   "notas": []
+  },
+  {
+   "umj_codigo": "dfl_44",
+   "codigos_legado": [
+    "dfl_44"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "dfl_44_1978_mintrab",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "4252",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dfl/ministerio-del-trabajo-y-prevision-social/1978-07-24/44",
+    "tipo_bcn": "dfl",
+    "organismo_bcn": "ministerio-del-trabajo-y-prevision-social",
+    "fecha_publicacion": "1978-07-24",
+    "numero": "44",
+    "titulo": "FIJA NORMAS COMUNES PARA LOS SUBSIDIOS POR INCAPACIDAD LABORAL DE LOS TRABAJADORES DEPENDIENTES DEL SECTOR PRIVADO",
+    "etiquetas": [
+     "Decreto Con Fuerza De Ley 44"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/DFL_44_Subsidio",
+   "n_unidades_umj": 260,
+   "notas": []
+  },
+  {
+   "umj_codigo": "dfl_458",
+   "codigos_legado": [
+    "dfl_458"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "dfl_458_1976_minvivienda",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "13560",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dto/ministerio-de-vivienda-y-urbanismo/1976-04-13/458",
+    "tipo_bcn": "dto",
+    "organismo_bcn": "ministerio-de-vivienda-y-urbanismo",
+    "fecha_publicacion": "1976-04-13",
+    "numero": "458",
+    "titulo": "APRUEBA NUEVA LEY GENERAL DE URBANISMO Y CONSTRUCCIONES",
+    "etiquetas": [
+     "Decreto 458"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/DFL_458_Urbanismo_Construccion",
+   "n_unidades_umj": 4498,
+   "notas": [
+    "BCN lo tipa «Decreto 458»; el Vault y la cita usual dicen DFL. Confirmar en la revisión."
+   ]
+  },
+  {
+   "umj_codigo": "dfl_5_cooperativas",
+   "codigos_legado": [
+    "dfl_5_cooperativas"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "dfl_5_2004_mineconomia",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "221322",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dfl/ministerio-de-economia-fomento-y-reconstruccion_subsecretaria-de-economia-fomento-y-reconstruccion/2004-02-17/5",
+    "tipo_bcn": "dfl",
+    "organismo_bcn": "ministerio-de-economia-fomento-y-reconstruccion",
+    "fecha_publicacion": "2004-02-17",
+    "numero": "5",
+    "titulo": "FIJA TEXTO REFUNDIDO, CONCORDADO Y SISTEMATIZADO DE LA LEY GENERAL DE COOPERATIVAS",
+    "etiquetas": [
+     "Decreto Con Fuerza De Ley 5"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/DFL_5_2003_Cooperativas",
+   "n_unidades_umj": 1797,
+   "notas": []
+  },
+  {
+   "umj_codigo": "dl_3500",
+   "codigos_legado": [
+    "dl_3500"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "dl_3500",
+   "regla": "R3",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "7147",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/DL_3500",
+   "n_unidades_umj": 4329,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ds_3",
+   "codigos_legado": [
+    "ds_3"
+   ],
+   "origen": "umj",
+   "slug_propuesto": null,
+   "regla": null,
+   "estado_alta": "bloqueada",
+   "bloqueo": "el idNorma 263089 y el texto del Vault son la Res. Exenta 376/2007 de la SEREMI de Transportes de la VI Región (Peralillo), no el «DS 3 Licencias» que nombra la carpeta",
+   "id_norma_bcn": "263089",
+   "verificacion_id_norma": "contenido_ajeno",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/res/ministerio-de-transportes-y-telecomunicaciones_subsecretaria-de-transportes_secretaria-regional-ministerial-vi-region-del-libertador-general-bernardo-ou2019higgins/2007-07-28/376-exenta",
+    "tipo_bcn": "res",
+    "organismo_bcn": "ministerio-de-transportes-y-telecomunicaciones",
+    "fecha_publicacion": "2007-07-28",
+    "numero": "376-exenta",
+    "titulo": "APRUEBA GABINETE TECNICO Y AUTORIZA A LA MUNICIPALIDAD DE PERALILLO A OTORGAR LICENCIAS DE CONDUCTOR",
+    "etiquetas": [
+     "APRUEBA GABINETE TECNICO Y AUTORIZA A LA MUNICIPALIDAD DE PERALILLO A OTORGAR LICENCIAS DE CONDUCTOR"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/DS_3_Licencias",
+   "n_unidades_umj": 35,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_14908",
+   "codigos_legado": [
+    "ley_14908"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_14908",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "27977",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia/1962-10-05/14908",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia",
+    "fecha_publicacion": "1962-10-05",
+    "numero": "14908",
+    "titulo": "FIJA EL TEXTO DEFINITIVO Y REFUNDIDO DE LA LEY NUMERO 5.750, CON LAS MODIFICACIONES INTRODUCIDAS POR LA LEY NUMERO 14.550",
+    "etiquetas": [
+     "Ley 14908"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_14908_Abandono_Familia",
+   "n_unidades_umj": 154,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_16744",
+   "codigos_legado": [
+    "ley_16744"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_16744",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "28650",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/Ley_16744",
+   "n_unidades_umj": 804,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_17322",
+   "codigos_legado": [
+    "ley_17322"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_17322",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "28919",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/LEY_17322",
+   "n_unidades_umj": 387,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_17336",
+   "codigos_legado": [
+    "ley_17336"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_17336",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "28933",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-educacion-publica/1970-10-02/17336",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-educacion-publica",
+    "fecha_publicacion": "1970-10-02",
+    "numero": "17336",
+    "titulo": "PROPIEDAD INTELECTUAL",
+    "etiquetas": [
+     "Ley 17336",
+     "PROPIEDAD INTELECTUAL"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_17336_Propiedad_Intelectual",
+   "n_unidades_umj": 1598,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_17798",
+   "codigos_legado": [
+    "ley_17798"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_17798",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29291",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-defensa-nacional/1972-10-21/17798",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-defensa-nacional",
+    "fecha_publicacion": "1972-10-21",
+    "numero": "17798",
+    "titulo": "ESTABLECE EL CONTROL DE ARMAS.",
+    "etiquetas": [
+     "Ley 17798"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_17798_Control_Armas",
+   "n_unidades_umj": 300,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18010",
+   "codigos_legado": [
+    "ley_18010"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18010",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29438",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-hacienda/1981-06-27/18010",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "1981-06-27",
+    "numero": "18010",
+    "titulo": "ESTABLECE NORMAS PARA LAS OPERACIONES DE CREDITO Y OTRAS OBLIGACIONES DE DINERO QUE INDICA",
+    "etiquetas": [
+     "Ley 18010"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18010_Credito_Dinero",
+   "n_unidades_umj": 555,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18045",
+   "codigos_legado": [
+    "ley_18045"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18045",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29472",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-hacienda/1981-10-22/18045",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "1981-10-22",
+    "numero": "18045",
+    "titulo": "LEY DE MERCADO DE VALORES",
+    "etiquetas": [
+     "Ley 18045"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18045_Mercado_Valores",
+   "n_unidades_umj": 3932,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18046",
+   "codigos_legado": [
+    "ley_18046"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18046",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29473",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/LEY_18046",
+   "n_unidades_umj": 2107,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18092",
+   "codigos_legado": [
+    "ley_18092"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18092",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29517",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/LEY_18092",
+   "n_unidades_umj": 505,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18101",
+   "codigos_legado": [
+    "ley_18101"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18101",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29526",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-vivienda-y-urbanismo/1982-01-29/18101",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-vivienda-y-urbanismo",
+    "fecha_publicacion": "1982-01-29",
+    "numero": "18101",
+    "titulo": "FIJA NORMAS ESPECIALES SOBRE ARRENDAMIENTO DE PREDIOS URBANOS",
+    "etiquetas": [
+     "Ley 18101"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18101_Arrendamiento",
+   "n_unidades_umj": 555,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18120",
+   "codigos_legado": [
+    "ley_18120"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18120",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29544",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia/1982-05-18/18120",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia",
+    "fecha_publicacion": "1982-05-18",
+    "numero": "18120",
+    "titulo": "ESTABLECE NORMAS SOBRE COMPARECENCIA EN JUICIO Y MODIFICA LOS ARTICULOS 4° DEL CODIGO DE PROCEDIMIENTO CIVIL Y 523 DEL CODIGO ORGANICO DE TRIBUNALES",
+    "etiquetas": [
+     "ESTABLECE NORMAS SOBRE COMPARECENCIA EN JUICIO Y MODIFICA LOS ARTICULOS 4° DEL CODIGO DE PROCEDIMIENTO CIVIL Y 523 DEL CODIGO ORGANICO DE TRIBUNALES",
+     "ESTABLECE NORMAS SOBRE COMPARECENCIA EN JUICIO Y MODIFICA LOS ARTICULOS 4�� DEL CODIGO DE PROCEDIMIENTO CIVIL Y 523 DEL CODIGO ORGANICO DE TRIBUNALES",
+     "Ley 18120"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/LEY_18120",
+   "n_unidades_umj": 135,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18168",
+   "codigos_legado": [
+    "ley_18168"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18168",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29591",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-transportes-y-telecomunicaciones/1982-10-02/18168",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-transportes-y-telecomunicaciones",
+    "fecha_publicacion": "1982-10-02",
+    "numero": "18168",
+    "titulo": "LEY GENERAL DE TELECOMUNICACIONES",
+    "etiquetas": [
+     "LEY GENERAL DE TELECOMUNICACIONES",
+     "Ley 18168"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18168_Telecomunicaciones",
+   "n_unidades_umj": 2525,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18175",
+   "codigos_legado": [
+    "ley_18175"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "dfl_3_1997_minhacienda",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "83135",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dfl/ministerio-de-hacienda/1997-12-19/3",
+    "tipo_bcn": "dfl",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "1997-12-19",
+    "numero": "3",
+    "titulo": "FIJA TEXTO REFUNDIDO, SISTEMATIZADO Y CONCORDADO DE LA LEY GENERAL DE BANCOS Y DE OTROS CUERPOS LEGALES QUE SE INDICAN",
+    "etiquetas": [
+     "Decreto Con Fuerza De Ley 3"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18175_Ley_General_Bancos",
+   "n_unidades_umj": 2964,
+   "notas": [
+    "El código UMJ es erróneo: el contenido y el idNorma 83135 son el DFL 3/1997 de Hacienda (Ley General de Bancos). `ley_18175` queda reservado para la Ley 18.175 (antigua Ley de Quiebras)."
+   ]
+  },
+  {
+   "umj_codigo": "ley_18216",
+   "codigos_legado": [
+    "ley_18216"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18216",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29636",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/LEY_18216",
+   "n_unidades_umj": 518,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18290",
+   "codigos_legado": [
+    "ley_18290"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18290",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29708",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia/1984-02-07/18290",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia",
+    "fecha_publicacion": "1984-02-07",
+    "numero": "18290",
+    "titulo": "LEY DE TRANSITO",
+    "etiquetas": [
+     "LEY DE TRANSITO",
+     "Ley 18290"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18290_Transito",
+   "n_unidades_umj": 2919,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18314",
+   "codigos_legado": [
+    "ley_18314"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18314",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29731",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior/1984-05-17/18314",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior",
+    "fecha_publicacion": "1984-05-17",
+    "numero": "18314",
+    "titulo": "DETERMINA CONDUCTAS TERRORISTAS Y FIJA SU PENALIDAD",
+    "etiquetas": [
+     "Ley 18314"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18314_Terrorismo",
+   "n_unidades_umj": 268,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18575",
+   "codigos_legado": [
+    "ley_18575"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18575",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29967",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior_subsecretaria-del-interior/1986-12-05/18575",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior",
+    "fecha_publicacion": "1986-12-05",
+    "numero": "18575",
+    "titulo": "LEY ORGANICA CONSTITUCIONAL DE BASES GENERALES DE LA ADMINISTRACION DEL ESTADO",
+    "etiquetas": [
+     "LEY ORGANICA CONSTITUCIONAL DE BASES GENERALES DE LA ADMINISTRACION DEL ESTADO",
+     "Ley 18575"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18575_Bases_Adm_Estado",
+   "n_unidades_umj": 806,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18603",
+   "codigos_legado": [
+    "ley_18603"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18603",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "29994",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior/1987-03-23/18603",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior",
+    "fecha_publicacion": "1987-03-23",
+    "numero": "18603",
+    "titulo": "LEY ORGANICA CONSTITUCIONAL DE LOS PARTIDOS POLITICOS",
+    "etiquetas": [
+     "Ley 18603"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18603_Partidos_Politicos",
+   "n_unidades_umj": 1349,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18695",
+   "codigos_legado": [
+    "ley_18695"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18695",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30077",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior/1988-03-31/18695",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior",
+    "fecha_publicacion": "1988-03-31",
+    "numero": "18695",
+    "titulo": "LEY ORGANICA CONSTITUCIONAL DE MUNICIPALIDADES",
+    "etiquetas": [
+     "LEY ORGANICA CONSTITUCIONAL DE MUNICIPALIDADES",
+     "Ley 18695"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18695_Municipalidades",
+   "n_unidades_umj": 2063,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18700",
+   "codigos_legado": [
+    "ley_18700"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18700",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30082",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior/1988-05-06/18700",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior",
+    "fecha_publicacion": "1988-05-06",
+    "numero": "18700",
+    "titulo": "LEY ORGANICA CONSTITUCIONAL SOBRE VOTACIONES\nPOPULARES Y ESCRUTINIOS ",
+    "etiquetas": [
+     "LEY ORGANICA CONSTITUCIONAL SOBRE VOTACIONES POPULARES Y ESCRUTINIOS",
+     "Ley 18700"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18700_Votaciones_Populares",
+   "n_unidades_umj": 3626,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18834",
+   "codigos_legado": [
+    "ley_18834"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18834",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30210",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior/1989-09-23/18834",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior",
+    "fecha_publicacion": "1989-09-23",
+    "numero": "18834",
+    "titulo": "APRUEBA ESTATUTO ADMINISTRATIVO",
+    "etiquetas": [
+     "Ley 18834"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18834_Estatuto_Administrativo",
+   "n_unidades_umj": 2499,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18883",
+   "codigos_legado": [
+    "ley_18883"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18883",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30256",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior/1989-12-29/18883",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior",
+    "fecha_publicacion": "1989-12-29",
+    "numero": "18883",
+    "titulo": "APRUEBA ESTATUTO ADMINISTRATIVO PARA FUNCIONARIOS MUNICIPALES",
+    "etiquetas": [
+     "Ley 18883"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_18883_Estatuto_Administrativo_Municipal",
+   "n_unidades_umj": 2474,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_18918",
+   "codigos_legado": [
+    "ley_18918"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_18918",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30289",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior/1990-02-05/18918",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior",
+    "fecha_publicacion": "1990-02-05",
+    "numero": "18918",
+    "titulo": "LEY ORGANICA CONSTITUCIONAL DEL CONGRESO NACIONAL",
+    "etiquetas": [
+     "LEY ORGANICA CONSTITUCIONAL DEL CONGRESO NACIONAL",
+     "Ley 18918"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/LEY_18918",
+   "n_unidades_umj": 677,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19039",
+   "codigos_legado": [
+    "ley_19039"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19039",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30406",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-economia-fomento-y-reconstruccion/1991-01-25/19039",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-economia-fomento-y-reconstruccion",
+    "fecha_publicacion": "1991-01-25",
+    "numero": "19039",
+    "titulo": "ESTABLECE NORMAS APLICABLES A LOS PRIVILEGIOS INDUSTRIALES Y PROTECCION DE LOS DERECHOS DE PROPIEDAD INDUSTRIAL",
+    "etiquetas": [
+     "Ley 19039"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19039_Propiedad_Industrial",
+   "n_unidades_umj": 1563,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19070",
+   "codigos_legado": [
+    "ley_19070"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19070",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30437",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-educacion-publica/1991-07-01/19070",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-educacion-publica",
+    "fecha_publicacion": "1991-07-01",
+    "numero": "19070",
+    "titulo": "APRUEBA ESTATUTO DE LOS PROFESIONALES DE LA EDUCACION",
+    "etiquetas": []
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19070_Estatuto_Docente",
+   "n_unidades_umj": 1181,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19253",
+   "codigos_legado": [
+    "ley_19253"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19253",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30620",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-planificacion-y-cooperacion/1993-10-05/19253",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-planificacion-y-cooperacion",
+    "fecha_publicacion": "1993-10-05",
+    "numero": "19253",
+    "titulo": "ESTABLECE NORMAS SOBRE PROTECCION, FOMENTO Y DESARROLLO DE LOS INDIGENAS, Y CREA LA CORPORACION NACIONAL DE DESARROLLO INDIGENA",
+    "etiquetas": [
+     "Ley 19253"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19253_Indigenas",
+   "n_unidades_umj": 1362,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19300",
+   "codigos_legado": [
+    "ley_19300"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19300",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30667",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-la-presidencia/1994-03-09/19300",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "1994-03-09",
+    "numero": "19300",
+    "titulo": "APRUEBA LEY SOBRE BASES GENERALES DEL MEDIO AMBIENTE",
+    "etiquetas": [
+     "Ley 19300"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19300_Bases_Medio_Ambiente",
+   "n_unidades_umj": 2195,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19378",
+   "codigos_legado": [
+    "ley_19378"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19378",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30745",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-salud/1995-04-13/19378",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-salud",
+    "fecha_publicacion": "1995-04-13",
+    "numero": "19378",
+    "titulo": "ESTABLECE ESTATUTO DE ATENCION PRIMARIA DE SALUD MUNICIPAL",
+    "etiquetas": [
+     "Ley 19378"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19378_APS",
+   "n_unidades_umj": 1305,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19418",
+   "codigos_legado": [
+    "ley_19418"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19418",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30785",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior/1995-10-09/19418",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior",
+    "fecha_publicacion": "1995-10-09",
+    "numero": "19418",
+    "titulo": "ESTABLECE NORMAS SOBRE JUNTAS DE VECINOS Y DEMAS ORGANIZACIONES COMUNITARIAS",
+    "etiquetas": [
+     "Ley 19418"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19418_Juntas_Vecinos",
+   "n_unidades_umj": 736,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19496",
+   "codigos_legado": [
+    "ley_19496"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19496",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "61438",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/LEY_19496",
+   "n_unidades_umj": 2666,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19585",
+   "codigos_legado": [
+    "ley_19585"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19585",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "126366",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia/1998-10-26/19585",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia",
+    "fecha_publicacion": "1998-10-26",
+    "numero": "19585",
+    "titulo": "MODIFICA EL CODIGO CIVIL Y OTROS CUERPOS LEGALES EN MATERIA DE FILIACION",
+    "etiquetas": [
+     "Ley 19585"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19585_Filiacion",
+   "n_unidades_umj": 1456,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19620",
+   "codigos_legado": [
+    "ley_19620"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19620",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "140084",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia/1999-08-05/19620",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia",
+    "fecha_publicacion": "1999-08-05",
+    "numero": "19620",
+    "titulo": "DICTA NORMAS SOBRE ADOPCION DE MENORES",
+    "etiquetas": [
+     "Ley 19620"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19620_Adopcion",
+   "n_unidades_umj": 693,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19628",
+   "codigos_legado": [
+    "ley_19628"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19628",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "141599",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/Ley_19628_Datos_Personales",
+   "n_unidades_umj": 752,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19657",
+   "codigos_legado": [
+    "ley_19657"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19657",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "150669",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-mineria/2000-01-07/19657",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-mineria",
+    "fecha_publicacion": "2000-01-07",
+    "numero": "19657",
+    "titulo": "SOBRE CONCESIONES DE ENERGIA GEOTERMICA",
+    "etiquetas": [
+     "Ley 19657"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19657_CDE",
+   "n_unidades_umj": 610,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19712",
+   "codigos_legado": [
+    "ley_19712"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19712",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "181636",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior_subsecretaria-del-interior/2001-02-09/19712",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior",
+    "fecha_publicacion": "2001-02-09",
+    "numero": "19712",
+    "titulo": "LEY DEL DEPORTE",
+    "etiquetas": [
+     "LEY DEL DEPORTE",
+     "Ley 19712"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19712_Deporte",
+   "n_unidades_umj": 2282,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19728",
+   "codigos_legado": [
+    "ley_19728"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19728",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "184979",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/LEY_19728",
+   "n_unidades_umj": 2344,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19733",
+   "codigos_legado": [
+    "ley_19733"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19733",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "186049",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-gobierno/2001-06-04/19733",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-gobierno",
+    "fecha_publicacion": "2001-06-04",
+    "numero": "19733",
+    "titulo": "SOBRE LIBERTADES DE OPINION E INFORMACION Y EJERCICIO DEL PERIODISMO",
+    "etiquetas": [
+     "Ley 19733"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19733_Libertad_Informacion",
+   "n_unidades_umj": 576,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19799",
+   "codigos_legado": [
+    "ley_19799"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19799",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "196640",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-economia-fomento-y-reconstruccion_subsecretaria-de-economia-fomento-y-reconstruccion/2002-04-12/19799",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-economia-fomento-y-reconstruccion",
+    "fecha_publicacion": "2002-04-12",
+    "numero": "19799",
+    "titulo": "SOBRE DOCUMENTOS ELECTRONICOS, FIRMA ELECTRONICA Y SERVICIOS DE CERTIFICACION DE DICHA FIRMA",
+    "etiquetas": [
+     "Ley 19799"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/LEY_19799",
+   "n_unidades_umj": 324,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19828",
+   "codigos_legado": [
+    "ley_19828"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19828",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "202950",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-la-presidencia/2002-09-27/19828",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2002-09-27",
+    "numero": "19828",
+    "titulo": "CREA EL SERVICIO NACIONAL DEL ADULTO MAYOR",
+    "etiquetas": [
+     "Ley 19828"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19828",
+   "n_unidades_umj": 181,
+   "notas": [
+    "El frontmatter de articulos/*.md traía el idNorma ajeno 216309 (Decreto 94 de 2003). El correcto, 202950, sale del frontmatter de full_text.md del Vault y BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": "ley_19880",
+   "codigos_legado": [
+    "ley_19880"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19880",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "210676",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-la-presidencia/2003-05-29/19880",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2003-05-29",
+    "numero": "19880",
+    "titulo": "ESTABLECE BASES DE LOS PROCEDIMIENTOS ADMINISTRATIVOS QUE RIGEN LOS ACTOS DE LOS ORGANOS DE LA ADMINISTRACION DEL ESTADO.",
+    "etiquetas": [
+     "Ley 19880"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19880_Procedimiento_Administrativo",
+   "n_unidades_umj": 1219,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19884",
+   "codigos_legado": [
+    "ley_19884"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19884",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "213283",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior_subsecretaria-del-interior/2003-08-05/19884",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior",
+    "fecha_publicacion": "2003-08-05",
+    "numero": "19884",
+    "titulo": "SOBRE TRANSPARENCIA, LIMITE Y CONTROL DEL GASTO ELECTORAL",
+    "etiquetas": [
+     "Ley 19884"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19884_Probidad_Municipal",
+   "n_unidades_umj": 990,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19886",
+   "codigos_legado": [
+    "ley_19886"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19886",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "213004",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-hacienda/2003-07-30/19886",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "2003-07-30",
+    "numero": "19886",
+    "titulo": "LEY DE BASES SOBRE CONTRATOS ADMINISTRATIVOS DE SUMINISTRO Y PRESTACION DE SERVICIOS",
+    "etiquetas": [
+     "LEY DE BASES SOBRE CONTRATOS ADMINISTRATIVOS DE SUMINISTRO Y PRESTACION DE SERVICIOS",
+     "Ley 19886"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19886_Compras_Publicas",
+   "n_unidades_umj": 2649,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19913",
+   "codigos_legado": [
+    "ley_19913"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19913",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "219119",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-hacienda/2003-12-18/19913",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "2003-12-18",
+    "numero": "19913",
+    "titulo": "CREA LA UNIDAD DE ANALISIS FINANCIERO Y MODIFICA DIVERSAS DISPOSICIONES EN MATERIA DE LAVADO Y BLANQUEO DE ACTIVOS",
+    "etiquetas": [
+     "Ley 19913"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19913_Lavado_Activos",
+   "n_unidades_umj": 824,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19937",
+   "codigos_legado": [
+    "ley_19937"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19937",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "221629",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-salud/2004-02-24/19937",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-salud",
+    "fecha_publicacion": "2004-02-24",
+    "numero": "19937",
+    "titulo": "MODIFICA EL D.L. Nº 2.763, DE 1979, CON LA FINALIDAD DE\nESTABLECER UNA NUEVA CONCEPCION DE LA AUTORIDAD\nSANITARIA, DISTINTAS MODALIDADES DE GESTION Y FORTALECER\nLA PARTICIPACION CIUDADANA ",
+    "etiquetas": [
+     "Ley 19937",
+     "MODIFICA EL D.L. Nº 2.763, DE 1979, CON LA FINALIDAD DE ESTABLECER UNA NUEVA CONCEPCION DE LA AUTORIDAD SANITARIA, DISTINTAS MODALIDADES DE GESTION Y FORTALECER LA PARTICIPACION CIUDADANA"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19937_Autoridad_Sanitaria",
+   "n_unidades_umj": 2329,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19947",
+   "codigos_legado": [
+    "ley_19947"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19947",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "225128",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia/2004-05-17/19947",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia",
+    "fecha_publicacion": "2004-05-17",
+    "numero": "19947",
+    "titulo": "ESTABLECE NUEVA LEY DE MATRIMONIO CIVIL",
+    "etiquetas": [
+     "Ley 19947"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_19947_Matrimonio_Civil",
+   "n_unidades_umj": 1120,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_19968",
+   "codigos_legado": [
+    "ley_19968"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_19968",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "229557",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/Ley_19968",
+   "n_unidades_umj": 1690,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20000",
+   "codigos_legado": [
+    "ley_20000"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20000",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "235507",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/LEY_20000",
+   "n_unidades_umj": 2168,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20019",
+   "codigos_legado": [
+    "ley_20019"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20019",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "237718",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-gobierno/2005-05-07/20019",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-gobierno",
+    "fecha_publicacion": "2005-05-07",
+    "numero": "20019",
+    "titulo": "REGULA LAS SOCIEDADES ANONIMAS DEPORTIVAS PROFESIONALES",
+    "etiquetas": [
+     "Ley 20019",
+     "REGULA LAS SOCIEDADES ANONIMAS DEPORTIVAS PROFESIONALES"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20019_SADP",
+   "n_unidades_umj": 1205,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20066",
+   "codigos_legado": [
+    "ley_20066"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20066",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "242648",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/LEY_20066",
+   "n_unidades_umj": 326,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20084",
+   "codigos_legado": [
+    "ley_20084"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20084",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "244803",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia/2005-12-07/20084",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia",
+    "fecha_publicacion": "2005-12-07",
+    "numero": "20084",
+    "titulo": "ESTABLECE UN SISTEMA DE RESPONSABILIDAD DE LOS ADOLESCENTES POR INFRACCIONES A LA LEY PENAL",
+    "etiquetas": [
+     "ESTABLECE UN SISTEMA DE RESPONSABILIDAD DE LOS ADOLESCENTES POR INFRACCIONES A LA LEY PENAL",
+     "Ley 20084"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/LEY_20084",
+   "n_unidades_umj": 1105,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20086",
+   "codigos_legado": [
+    "ley_20086"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20086",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "244963",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia/2005-12-15/20086",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia",
+    "fecha_publicacion": "2005-12-15",
+    "numero": "20086",
+    "titulo": "INTRODUCE MODIFICACIONES A LA APLICACION DE LOS PROCEDIMIENTOS DE LA LEY DE TRIBUNALES DE FAMILIA",
+    "etiquetas": [
+     "INTRODUCE MODIFICACIONES A LA APLICACION DE LOS PROCEDIMIENTOS DE LA LEY DE TRIBUNALES DE FAMILIA",
+     "Ley 20086"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20086_Matrimonio_Separacion",
+   "n_unidades_umj": 74,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20120",
+   "codigos_legado": [
+    "ley_20120"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20120",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "253478",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-salud_subsecretaria-de-salud-publica/2006-09-22/20120",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-salud",
+    "fecha_publicacion": "2006-09-22",
+    "numero": "20120",
+    "titulo": "SOBRE LA INVESTIGACION CIENTIFICA EN EL SER HUMANO, SU\nGENOMA, Y PROHIBE LA CLONACION HUMANA ",
+    "etiquetas": [
+     "Ley 20120",
+     "SOBRE LA INVESTIGACION CIENTIFICA EN EL SER HUMANO, SU GENOMA, Y PROHIBE LA CLONACION HUMANA"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20120_Investigacion_Biomedica",
+   "n_unidades_umj": 153,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20123",
+   "codigos_legado": [
+    "ley_20123"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20123",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "254080",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-trabajo-y-prevision-social_subsecretaria-del-trabajo/2006-10-16/20123",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-trabajo-y-prevision-social",
+    "fecha_publicacion": "2006-10-16",
+    "numero": "20123",
+    "titulo": "REGULA TRABAJO EN REGIMEN DE SUBCONTRATACION, EL FUNCIONAMIENTO DE LAS EMPRESAS DE SERVICIOS TRANSITORIOS Y EL CONTRATO DE TRABAJO DE SERVICIOS TRANSITORIOS",
+    "etiquetas": [
+     "Ley 20123",
+     "REGULA TRABAJO EN REGIMEN DE SUBCONTRATACION, EL FUNCIONAMIENTO DE LAS EMPRESAS DE SERVICIOS TRANSITORIOS Y EL CONTRATO DE TRABAJO DE SERVICIOS TRANSITORIOS"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20123_Subcontratacion",
+   "n_unidades_umj": 555,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20169",
+   "codigos_legado": [
+    "ley_20169"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20169",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "258377",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-economia_fomento-y-reconstruccion_subsecretaria-de-economia_fomento-y-reconstruccion/2007-02-16/20169",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-economia_fomento-y-reconstruccion",
+    "fecha_publicacion": "2007-02-16",
+    "numero": "20169",
+    "titulo": "REGULA LA COMPETENCIA DESLEAL",
+    "etiquetas": [
+     "Ley 20169",
+     "REGULA LA COMPETENCIA DESLEAL"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20169_Competencia_Desleal",
+   "n_unidades_umj": 154,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20249",
+   "codigos_legado": [
+    "ley_20249"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20249",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "269291",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-planificacion/2008-02-16/20249",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-planificacion",
+    "fecha_publicacion": "2008-02-16",
+    "numero": "20249",
+    "titulo": "CREA EL ESPACIO COSTERO MARINO DE LOS PUEBLOS ORIGINARIOS",
+    "etiquetas": [
+     "CREA EL ESPACIO COSTERO MARINO DE LOS PUEBLOS ORIGINARIOS",
+     "Ley 20249"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20249_Energias_Renovables",
+   "n_unidades_umj": 323,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20255",
+   "codigos_legado": [
+    "ley_20255"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20255",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "269892",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-trabajo-y-prevision-social_subsecretaria-de-prevision-social/2008-03-17/20255",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-trabajo-y-prevision-social",
+    "fecha_publicacion": "2008-03-17",
+    "numero": "20255",
+    "titulo": "ESTABLECE REFORMA PREVISIONAL",
+    "etiquetas": [
+     "ESTABLECE REFORMA PREVISIONAL",
+     "Ley 20255"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20255_Reforma_Previsional",
+   "n_unidades_umj": 4824,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20283",
+   "codigos_legado": [
+    "ley_20283"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20283",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "274894",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-agricultura/2008-07-30/20283",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-agricultura",
+    "fecha_publicacion": "2008-07-30",
+    "numero": "20283",
+    "titulo": "LEY SOBRE RECUPERACIÓN DEL BOSQUE NATIVO Y FOMENTO FORESTAL",
+    "etiquetas": [
+     "LEY SOBRE RECUPERACIÓN DEL BOSQUE NATIVO Y FOMENTO FORESTAL",
+     "Ley 20283"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20283_Bosque_Nativo",
+   "n_unidades_umj": 1086,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20285",
+   "codigos_legado": [
+    "ley_20285"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20285",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "276363",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-la-presidencia/2008-08-20/20285",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2008-08-20",
+    "numero": "20285",
+    "titulo": "SOBRE ACCESO A LA INFORMACIÓN PÚBLICA",
+    "etiquetas": [
+     "Ley 20285",
+     "SOBRE ACCESO A LA INFORMACIÓN PÚBLICA"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20285_Acceso_Informacion",
+   "n_unidades_umj": 1058,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20370",
+   "codigos_legado": [
+    "ley_20370"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20370",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1006043",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-educacion/2009-09-12/20370",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-educacion",
+    "fecha_publicacion": "2009-09-12",
+    "numero": "20370",
+    "titulo": "ESTABLECE LA LEY GENERAL DE EDUCACIÓN",
+    "etiquetas": [
+     "ESTABLECE LA LEY GENERAL DE EDUCACIÓN",
+     "Ley 20370"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20370_LGE",
+   "n_unidades_umj": 1446,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20379",
+   "codigos_legado": [
+    "ley_20379"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20379",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1006044",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-planificacion/2009-09-12/20379",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-planificacion",
+    "fecha_publicacion": "2009-09-12",
+    "numero": "20379",
+    "titulo": "CREA EL SISTEMA INTERSECTORIAL DE PROTECCIÓN SOCIAL E INSTITUCIONALIZA EL SUBSISTEMA DE PROTECCIÓN INTEGRAL A LA INFANCIA \"CHILE CRECE CONTIGO\" ",
+    "etiquetas": [
+     "CREA EL SISTEMA INTERSECTORIAL DE PROTECCIÓN SOCIAL E INSTITUCIONALIZA EL SUBSISTEMA DE PROTECCIÓN INTEGRAL A LA INFANCIA 'CHILE CRECE CONTIGO'",
+     "Ley 20379"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20379_Aseguramiento_Educacion",
+   "n_unidades_umj": 218,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20393",
+   "codigos_legado": [
+    "ley_20393"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20393",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1008668",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-hacienda_subsecretaria-de-hacienda/2009-12-02/20393",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "2009-12-02",
+    "numero": "20393",
+    "titulo": "ESTABLECE LA RESPONSABILIDAD PENAL DE LAS PERSONAS JURÍDICAS EN LOS DELITOS DE LAVADO DE ACTIVOS, FINANCIAMIENTO DEL TERRORISMO Y DELITOS DE COHECHO QUE INDICA",
+    "etiquetas": [
+     "ESTABLECE LA RESPONSABILIDAD PENAL DE LAS PERSONAS JURÍDICAS EN LOS DELITOS DE LAVADO DE ACTIVOS, FINANCIAMIENTO DEL TERRORISMO Y DELITOS DE COHECHO QUE INDICA",
+     "Ley 20393"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20393_RPPJ",
+   "n_unidades_umj": 555,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20417",
+   "codigos_legado": [
+    "ley_20417"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20417",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1010459",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-la-presidencia/2010-01-26/20417",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2010-01-26",
+    "numero": "20417",
+    "titulo": "CREA EL MINISTERIO, EL SERVICIO DE EVALUACIÓN AMBIENTAL Y LA SUPERINTENDENCIA DEL MEDIO AMBIENTE",
+    "etiquetas": [
+     "CREA EL MINISTERIO, EL SERVICIO DE EVALUACIÓN AMBIENTAL Y LA SUPERINTENDENCIA DEL MEDIO AMBIENTE",
+     "Ley 20417"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20417_SMA",
+   "n_unidades_umj": 2397,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20422",
+   "codigos_legado": [
+    "ley_20422"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20422",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1010903",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-planificacion/2010-02-10/20422",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-planificacion",
+    "fecha_publicacion": "2010-02-10",
+    "numero": "20422",
+    "titulo": "ESTABLECE NORMAS SOBRE IGUALDAD DE OPORTUNIDADES E INCLUSIÓN SOCIAL DE PERSONAS CON DISCAPACIDAD",
+    "etiquetas": [
+     "ESTABLECE NORMAS SOBRE IGUALDAD DE OPORTUNIDADES E INCLUSIÓN SOCIAL DE PERSONAS CON DISCAPACIDAD",
+     "Ley 20422"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20422_Discapacidad",
+   "n_unidades_umj": 1248,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20500",
+   "codigos_legado": [
+    "ley_20500"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20500",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1023143",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-gobierno/2011-02-16/20500",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-gobierno",
+    "fecha_publicacion": "2011-02-16",
+    "numero": "20500",
+    "titulo": "SOBRE ASOCIACIONES Y PARTICIPACIÓN CIUDADANA EN LA GESTIÓN PÚBLICA",
+    "etiquetas": [
+     "Ley 20500",
+     "SOBRE ASOCIACIONES Y PARTICIPACIÓN CIUDADANA EN LA GESTIÓN PÚBLICA"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20500_Asociaciones",
+   "n_unidades_umj": 877,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20506",
+   "codigos_legado": [
+    "ley_20506"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20506",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1024068",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-hacienda/2011-03-30/20506",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "2011-03-30",
+    "numero": "20506",
+    "titulo": "OTORGA UN BONO A LOS CÓNYUGES QUE CUMPLAN CINCUENTA AÑOS DE MATRIMONIO",
+    "etiquetas": [
+     "Ley 20506",
+     "OTORGA UN BONO A LOS CÓNYUGES QUE CUMPLAN CINCUENTA AÑOS DE MATRIMONIO"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20506",
+   "n_unidades_umj": 62,
+   "notas": [
+    "El frontmatter de articulos/*.md traía el idNorma ajeno 216309 (Decreto 94 de 2003). El correcto, 1024068, sale del frontmatter de full_text.md del Vault y BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": "ley_20531",
+   "codigos_legado": [
+    "ley_20531"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20531",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1028994",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-hacienda/2011-08-31/20531",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "2011-08-31",
+    "numero": "20531",
+    "titulo": "EXIME, TOTAL O PARCIALMENTE, DE LA OBLIGACIÓN DE COTIZAR PARA SALUD A LOS PENSIONADOS QUE INDICA",
+    "etiquetas": [
+     "EXIME, TOTAL O PARCIALMENTE, DE LA OBLIGACIÓN DE COTIZAR PARA SALUD A LOS PENSIONADOS QUE INDICA",
+     "Ley 20531"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20531",
+   "n_unidades_umj": 76,
+   "notas": [
+    "El frontmatter de articulos/*.md traía el idNorma ajeno 216309 (Decreto 94 de 2003). El correcto, 1028994, sale del frontmatter de full_text.md del Vault y BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": "ley_20536",
+   "codigos_legado": [
+    "ley_20536"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20536",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1030087",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-educacion/2011-09-17/20536",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-educacion",
+    "fecha_publicacion": "2011-09-17",
+    "numero": "20536",
+    "titulo": "SOBRE VIOLENCIA ESCOLAR",
+    "etiquetas": [
+     "Ley 20536",
+     "SOBRE VIOLENCIA ESCOLAR"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20536_Violencia_Escolar",
+   "n_unidades_umj": 92,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20571",
+   "codigos_legado": [
+    "ley_20571"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20571",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1038211",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-energa/2012-03-22/20571",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-energa",
+    "fecha_publicacion": "2012-03-22",
+    "numero": "20571",
+    "titulo": "REGULA EL PAGO DE LAS TARIFAS ELÉCTRICAS DE LAS GENERADORAS RESIDENCIALES",
+    "etiquetas": [
+     "Ley 20571",
+     "REGULA EL PAGO DE LAS TARIFAS ELÉCTRICAS DE LAS GENERADORAS RESIDENCIALES",
+     "REGULA EL PAGO DE LAS TARIFAS EL��CTRICAS DE LAS GENERADORAS RESIDENCIALES"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20571_Netbilling",
+   "n_unidades_umj": 144,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20584",
+   "codigos_legado": [
+    "ley_20584"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20584",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1039348",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-salud_subsecretaria-de-salud-publica/2012-04-24/20584",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-salud",
+    "fecha_publicacion": "2012-04-24",
+    "numero": "20584",
+    "titulo": "REGULA LOS DERECHOS Y DEBERES QUE TIENEN LAS PERSONAS EN RELACIÓN CON ACCIONES VINCULADAS A SU ATENCIÓN EN SALUD",
+    "etiquetas": [
+     "Ley 20584"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20584_Pacientes",
+   "n_unidades_umj": 877,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20600",
+   "codigos_legado": [
+    "ley_20600"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20600",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1041361",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-medio-ambiente/2012-06-28/20600",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-medio-ambiente",
+    "fecha_publicacion": "2012-06-28",
+    "numero": "20600",
+    "titulo": "CREA LOS TRIBUNALES AMBIENTALES",
+    "etiquetas": [
+     "CREA LOS TRIBUNALES AMBIENTALES",
+     "Ley 20600"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20600_Tribunales_Ambientales",
+   "n_unidades_umj": 910,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20606",
+   "codigos_legado": [
+    "ley_20606"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20606",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1041570",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-salud_subsecretaria-de-salud-publica/2012-07-06/20606",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-salud",
+    "fecha_publicacion": "2012-07-06",
+    "numero": "20606",
+    "titulo": "SOBRE COMPOSICIÓN NUTRICIONAL DE LOS ALIMENTOS Y SU PUBLICIDAD",
+    "etiquetas": [
+     "Ley 20606",
+     "SOBRE COMPOSICIÓN NUTRICIONAL DE LOS ALIMENTOS Y SU PUBLICIDAD"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20606_Etiquetado_Alimentos",
+   "n_unidades_umj": 157,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20609",
+   "codigos_legado": [
+    "ley_20609"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20609",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1042092",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-gobierno/2012-07-24/20609",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-gobierno",
+    "fecha_publicacion": "2012-07-24",
+    "numero": "20609",
+    "titulo": "ESTABLECE MEDIDAS CONTRA LA DISCRIMINACIÓN",
+    "etiquetas": [
+     "ESTABLECE MEDIDAS CONTRA LA DISCRIMINACIÓN",
+     "Ley 20609"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20609_Antidiscriminacion",
+   "n_unidades_umj": 224,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20720",
+   "codigos_legado": [
+    "ley_20720"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20720",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1058072",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/Ley_20720",
+   "n_unidades_umj": 5658,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20730",
+   "codigos_legado": [
+    "ley_20730"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20730",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1060115",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-la-presidencia/2014-03-08/20730",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2014-03-08",
+    "numero": "20730",
+    "titulo": "REGULA EL LOBBY Y LAS GESTIONES QUE REPRESENTEN INTERESES PARTICULARES ANTE LAS AUTORIDADES Y FUNCIONARIOS",
+    "etiquetas": [
+     "Ley 20730",
+     "REGULA EL LOBBY Y LAS GESTIONES QUE REPRESENTEN INTERESES PARTICULARES ANTE LAS AUTORIDADES Y FUNCIONARIOS"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20730_Lobby",
+   "n_unidades_umj": 550,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20732",
+   "codigos_legado": [
+    "ley_20732"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20732",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1060038",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-hacienda/2014-03-05/20732",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "2014-03-05",
+    "numero": "20732",
+    "titulo": "REBAJA EL IMPUESTO TERRITORIAL CORRESPONDIENTE A PROPIEDADES DE ADULTOS MAYORES VULNERABLES ECONÓMICAMENTE",
+    "etiquetas": [
+     "Ley 20732",
+     "REBAJA EL IMPUESTO TERRITORIAL CORRESPONDIENTE A PROPIEDADES DE ADULTOS MAYORES VULNERABLES ECONÓMICAMENTE"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20732",
+   "n_unidades_umj": 31,
+   "notas": [
+    "El frontmatter de articulos/*.md traía el idNorma ajeno 216309 (Decreto 94 de 2003). El correcto, 1060038, sale del frontmatter de full_text.md del Vault y BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": "ley_20830",
+   "codigos_legado": [
+    "ley_20830"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20830",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1075210",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-gobierno/2015-04-21/20830",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-gobierno",
+    "fecha_publicacion": "2015-04-21",
+    "numero": "20830",
+    "titulo": "CREA EL ACUERDO DE UNIÓN CIVIL",
+    "etiquetas": [
+     "Ley 20830"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20830_Union_Civil",
+   "n_unidades_umj": 651,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20880",
+   "codigos_legado": [
+    "ley_20880"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20880",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1086062",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-la-presidencia/2016-01-05/20880",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2016-01-05",
+    "numero": "20880",
+    "titulo": "SOBRE PROBIDAD EN LA FUNCIÓN PÚBLICA Y PREVENCIÓN DE LOS CONFLICTOS DE INTERESES",
+    "etiquetas": [
+     "Ley 20880"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20880_Probidad",
+   "n_unidades_umj": 1078,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20886",
+   "codigos_legado": [
+    "ley_20886"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20886",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1085545",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia/2015-12-18/20886",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia",
+    "fecha_publicacion": "2015-12-18",
+    "numero": "20886",
+    "titulo": "MODIFICA EL CÓDIGO DE PROCEDIMIENTO CIVIL, PARA ESTABLECER LA TRAMITACIÓN DIGITAL DE LOS PROCEDIMIENTOS JUDICIALES",
+    "etiquetas": [
+     "Ley 20886"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/LEY_20886",
+   "n_unidades_umj": 389,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20940",
+   "codigos_legado": [
+    "ley_20940"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20940",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1094436",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-trabajo-y-prevision-social/2016-09-08/20940",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-trabajo-y-prevision-social",
+    "fecha_publicacion": "2016-09-08",
+    "numero": "20940",
+    "titulo": "MODERNIZA EL SISTEMA DE RELACIONES LABORALES",
+    "etiquetas": [
+     "Ley 20940"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20940_Negociacion_Colectiva",
+   "n_unidades_umj": 1858,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_20998",
+   "codigos_legado": [
+    "ley_20998"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_20998",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1100197",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-obras-publicas/2017-02-14/20998",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-obras-publicas",
+    "fecha_publicacion": "2017-02-14",
+    "numero": "20998",
+    "titulo": "REGULA LOS SERVICIOS SANITARIOS RURALES",
+    "etiquetas": [
+     "Ley 20998"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_20998_Servicios_Sanitarios_Rurales",
+   "n_unidades_umj": 1658,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21000",
+   "codigos_legado": [
+    "ley_21000"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21000",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1100517",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-hacienda/2017-02-23/21000",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "2017-02-23",
+    "numero": "21000",
+    "titulo": "CREA LA COMISIÓN PARA EL MERCADO FINANCIERO",
+    "etiquetas": [
+     "Ley 21000"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21000_Banco_Central",
+   "n_unidades_umj": 2288,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21013",
+   "codigos_legado": [
+    "ley_21013"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21013",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1103697",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia-y-derechos-humanos/2017-06-06/21013",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia-y-derechos-humanos",
+    "fecha_publicacion": "2017-06-06",
+    "numero": "21013",
+    "titulo": "TIPIFICA UN NUEVO DELITO DE MALTRATO Y AUMENTA LA PROTECCIÓN DE PERSONAS EN SITUACIÓN ESPECIAL",
+    "etiquetas": [
+     "Ley 21013"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/LEY_21013",
+   "n_unidades_umj": 93,
+   "notas": [
+    "El frontmatter de articulos/*.md traía el idNorma ajeno 216309 (Decreto 94 de 2003). El correcto, 1103697, sale del frontmatter de full_text.md del Vault y BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": "ley_21015",
+   "codigos_legado": [
+    "ley_21015"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21015",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1103997",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-desarrollo-social/2017-06-15/21015",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-desarrollo-social",
+    "fecha_publicacion": "2017-06-15",
+    "numero": "21015",
+    "titulo": "INCENTIVA LA INCLUSIÓN DE PERSONAS CON DISCAPACIDAD AL MUNDO LABORAL",
+    "etiquetas": [
+     "Ley 21015"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21015_Inclusion_Laboral",
+   "n_unidades_umj": 265,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21020",
+   "codigos_legado": [
+    "ley_21020"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21020",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1106037",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-salud/2017-08-02/21020",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-salud",
+    "fecha_publicacion": "2017-08-02",
+    "numero": "21020",
+    "titulo": "SOBRE TENENCIA RESPONSABLE DE MASCOTAS Y ANIMALES DE COMPAÑÍA",
+    "etiquetas": [
+     "Ley 21020"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21020_Tenencia_Mascotas",
+   "n_unidades_umj": 556,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21030",
+   "codigos_legado": [
+    "ley_21030"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21030",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1108237",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-salud/2017-09-23/21030",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-salud",
+    "fecha_publicacion": "2017-09-23",
+    "numero": "21030",
+    "titulo": "REGULA LA DESPENALIZACIÓN DE LA INTERRUPCIÓN VOLUNTARIA DEL EMBARAZO EN TRES CAUSALES",
+    "etiquetas": [
+     "Ley 21030"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21030_Aborto_3_Causales",
+   "n_unidades_umj": 243,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21057",
+   "codigos_legado": [
+    "ley_21057"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21057",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1113932",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia-y-derechos-humanos/2018-01-20/21057",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia-y-derechos-humanos",
+    "fecha_publicacion": "2018-01-20",
+    "numero": "21057",
+    "titulo": "REGULA ENTREVISTAS GRABADAS EN VIDEO Y, OTRAS MEDIDAS DE RESGUARDO A MENORES DE EDAD, VÍCTIMAS DE DELITOS SEXUALES",
+    "etiquetas": [
+     "Ley 21057"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21057_Entrevista_Grabada",
+   "n_unidades_umj": 704,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21080",
+   "codigos_legado": [
+    "ley_21080"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21080",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1116334",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-relaciones-exteriores/2018-03-20/21080",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-relaciones-exteriores",
+    "fecha_publicacion": "2018-03-20",
+    "numero": "21080",
+    "titulo": "MODIFICA DIVERSOS CUERPOS LEGALES CON EL OBJETO DE MODERNIZAR EL MINISTERIO DE RELACIONES EXTERIORES",
+    "etiquetas": [
+     "Ley 21080"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21080_Cambio_Climatico",
+   "n_unidades_umj": 2059,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21091",
+   "codigos_legado": [
+    "ley_21091"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21091",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1118991",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-educacion/2018-05-29/21091",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-educacion",
+    "fecha_publicacion": "2018-05-29",
+    "numero": "21091",
+    "titulo": "SOBRE EDUCACIÓN SUPERIOR",
+    "etiquetas": [
+     "Ley 21091"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21091_Educacion_Superior",
+   "n_unidades_umj": 3773,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21120",
+   "codigos_legado": [
+    "ley_21120"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21120",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1126480",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia-y-derechos-humanos/2018-12-10/21120",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia-y-derechos-humanos",
+    "fecha_publicacion": "2018-12-10",
+    "numero": "21120",
+    "titulo": "RECONOCE Y DA PROTECCIÓN AL DERECHO A LA IDENTIDAD DE GÉNERO",
+    "etiquetas": [
+     "Ley 21120"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21120_Identidad_Genero",
+   "n_unidades_umj": 490,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21130",
+   "codigos_legado": [
+    "ley_21130"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21130",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1124459",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-hacienda/2019-01-12/21130",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "2019-01-12",
+    "numero": "21130",
+    "titulo": "MODERNIZA LA LEGISLACIÓN BANCARIA",
+    "etiquetas": [
+     "Ley 21130"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21130_Modernizacion_Bancaria",
+   "n_unidades_umj": 2787,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21153",
+   "codigos_legado": [
+    "ley_21153"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21153",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1131140",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia-y-derechos-humanos/2019-05-03/21153",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia-y-derechos-humanos",
+    "fecha_publicacion": "2019-05-03",
+    "numero": "21153",
+    "titulo": "MODIFICA EL CÓDIGO PENAL PARA TIPIFICAR EL DELITO DE ACOSO SEXUAL EN ESPACIOS PÚBLICOS",
+    "etiquetas": [
+     "Ley 21153"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21153_Acoso_Callejero",
+   "n_unidades_umj": 50,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21160",
+   "codigos_legado": [
+    "ley_21160"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21160",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1134001",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia-y-derechos-humanos/2019-07-18/21160",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia-y-derechos-humanos",
+    "fecha_publicacion": "2019-07-18",
+    "numero": "21160",
+    "titulo": "DECLARA IMPRESCRIPTIBLES LOS DELITOS SEXUALES COMETIDOS CONTRA MENORES DE EDAD",
+    "etiquetas": [
+     "Ley 21160"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21160_Matrimonio_Igualitario",
+   "n_unidades_umj": 114,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21210",
+   "codigos_legado": [
+    "ley_21210"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21210",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1142667",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-hacienda/2020-02-24/21210",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "2020-02-24",
+    "numero": "21210",
+    "titulo": "MODERNIZA LA LEGISLACIÓN TRIBUTARIA",
+    "etiquetas": [
+     "Ley 21210"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21210_Modernizacion_Tributaria",
+   "n_unidades_umj": 8136,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21220",
+   "codigos_legado": [
+    "ley_21220"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21220",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1143741",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-trabajo-y-prevision-social/2020-03-26/21220",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-trabajo-y-prevision-social",
+    "fecha_publicacion": "2020-03-26",
+    "numero": "21220",
+    "titulo": "MODIFICA EL CÓDIGO DEL TRABAJO EN MATERIA DE TRABAJO A DISTANCIA",
+    "etiquetas": [
+     "Ley 21220"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21220_Teletrabajo",
+   "n_unidades_umj": 174,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21227",
+   "codigos_legado": [
+    "ley_21227"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21227",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1144080",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-trabajo-y-prevision-social/2020-04-06/21227",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-trabajo-y-prevision-social",
+    "fecha_publicacion": "2020-04-06",
+    "numero": "21227",
+    "titulo": "FACULTA EL ACCESO A PRESTACIONES DEL SEGURO DE DESEMPLEO DE LA LEY Nº 19.728, EN CIRCUNSTANCIAS EXCEPCIONALES",
+    "etiquetas": [
+     "Ley 21227"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21227_Proteccion_Empleo",
+   "n_unidades_umj": 749,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21257",
+   "codigos_legado": [
+    "ley_21257"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21257",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1148744",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-secretaria-general-de-la-presidencia/2020-08-27/21257",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2020-08-27",
+    "numero": "21257",
+    "titulo": "REFORMA CONSTITUCIONAL QUE FACULTA AL SERVICIO ELECTORAL A DICTAR LAS NORMAS E INSTRUCCIONES NECESARIAS PARA EL DESARROLLO DEL PLEBISCITO NACIONAL DISPUESTO EN EL ARTÍCULO 130 DE LA CONSTITUCIÓN Y OTROS PROCESOS ELECTORALES EN LOS TÉRMINOS QUE SE INDICAN",
+    "etiquetas": [
+     "Ley 21257"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21257_Distribucion_Electrica",
+   "n_unidades_umj": 95,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21263",
+   "codigos_legado": [
+    "ley_21263"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21263",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1149144",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-trabajo-y-prevision-social/2020-09-04/21263",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-trabajo-y-prevision-social",
+    "fecha_publicacion": "2020-09-04",
+    "numero": "21263",
+    "titulo": "FLEXIBILIZA TRANSITORIAMENTE LOS REQUISITOS DE ACCESO E INCREMENTA EL MONTO DE LAS PRESTACIONES AL SEGURO DE DESEMPLEO DE LA LEY Nº 19.728, CON MOTIVO DE LA PANDEMIA ORIGINADA POR EL COVID-19, Y PERFECCIONA LOS BENEFICIOS DE LA LEY Nº 21.227",
+    "etiquetas": [
+     "Ley 21263"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21263_Conciliacion_Laboral",
+   "n_unidades_umj": 278,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21325",
+   "codigos_legado": [
+    "ley_21325"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21325",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1158549",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior-y-seguridad-publica/2021-04-20/21325",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior-y-seguridad-publica",
+    "fecha_publicacion": "2021-04-20",
+    "numero": "21325",
+    "titulo": "LEY DE MIGRACIÓN Y EXTRANJERÍA",
+    "etiquetas": [
+     "Ley 21325"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21325_Migracion",
+   "n_unidades_umj": 2660,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21330",
+   "codigos_legado": [
+    "ley_21330"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21330",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1158938",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-trabajo-y-prevision-social/2021-04-28/21330",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-trabajo-y-prevision-social",
+    "fecha_publicacion": "2021-04-28",
+    "numero": "21330",
+    "titulo": "MODIFICA LA CARTA FUNDAMENTAL, PARA ESTABLECER Y REGULAR UN MECANISMO EXCEPCIONAL DE RETIRO DE FONDOS PREVISIONALES Y ANTICIPO DE RENTAS VITALICIAS, EN LAS CONDICIONES QUE INDICA",
+    "etiquetas": [
+     "Ley 21330"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21330_Seguridad_Privada",
+   "n_unidades_umj": 195,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21369",
+   "codigos_legado": [
+    "ley_21369"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21369",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1165023",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-educacion/2021-09-15/21369",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-educacion",
+    "fecha_publicacion": "2021-09-15",
+    "numero": "21369",
+    "titulo": "REGULA EL ACOSO SEXUAL, LA VIOLENCIA Y LA DISCRIMINACIÓN DE GÉNERO EN EL ÁMBITO DE LA EDUCACIÓN SUPERIOR",
+    "etiquetas": [
+     "Ley 21369"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21369_Acoso_Genero_ES",
+   "n_unidades_umj": 211,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21375",
+   "codigos_legado": [
+    "ley_21375"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21375",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1166846",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-salud/2021-10-21/21375",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-salud",
+    "fecha_publicacion": "2021-10-21",
+    "numero": "21375",
+    "titulo": "CONSAGRA LOS CUIDADOS PALIATIVOS Y LOS DERECHOS DE LAS PERSONAS QUE PADECEN ENFERMEDADES TERMINALES O GRAVES",
+    "etiquetas": [
+     "Ley 21375"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21375_Cuidados_Paliativos",
+   "n_unidades_umj": 99,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21394",
+   "codigos_legado": [
+    "ley_21394"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21394",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1168803",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia-y-derechos-humanos/2021-11-30/21394",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia-y-derechos-humanos",
+    "fecha_publicacion": "2021-11-30",
+    "numero": "21394",
+    "titulo": "INTRODUCE REFORMAS AL SISTEMA DE JUSTICIA PARA ENFRENTAR LA SITUACIÓN LUEGO DEL ESTADO DE EXCEPCIÓN CONSTITUCIONAL DE CATÁSTROFE POR CALAMIDAD PÚBLICA",
+    "etiquetas": [
+     "Ley 21394"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21394_Reforma_Justicia",
+   "n_unidades_umj": 1351,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21430",
+   "codigos_legado": [
+    "ley_21430"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21430",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1173643",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-desarrollo-social-y-familia/2022-03-15/21430",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-desarrollo-social-y-familia",
+    "fecha_publicacion": "2022-03-15",
+    "numero": "21430",
+    "titulo": "SOBRE GARANTÍAS Y PROTECCIÓN INTEGRAL DE LOS DERECHOS DE LA NIÑEZ Y ADOLESCENCIA",
+    "etiquetas": [
+     "Ley 21430"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21430_Ninez",
+   "n_unidades_umj": 2139,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21459",
+   "codigos_legado": [
+    "ley_21459"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21459",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1177743",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia-y-derechos-humanos/2022-06-20/21459",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia-y-derechos-humanos",
+    "fecha_publicacion": "2022-06-20",
+    "numero": "21459",
+    "titulo": "ESTABLECE NORMAS SOBRE DELITOS INFORMÁTICOS, DEROGA LA LEY N° 19.223 Y MODIFICA OTROS CUERPOS LEGALES CON EL OBJETO DE ADECUARLOS AL CONVENIO DE BUDAPEST",
+    "etiquetas": [
+     "Ley 21459"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21459_REP_Residuos",
+   "n_unidades_umj": 278,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21526",
+   "codigos_legado": [
+    "ley_21526"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21526",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1187103",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-hacienda/2022-12-28/21526",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-hacienda",
+    "fecha_publicacion": "2022-12-28",
+    "numero": "21526",
+    "titulo": "OTORGA REAJUSTE DE REMUNERACIONES A LAS Y LOS TRABAJADORES DEL SECTOR PÚBLICO, CONCEDE AGUINALDOS QUE SEÑALA, CONCEDE OTROS BENEFICIOS QUE INDICA, Y MODIFICA DIVERSOS CUERPOS LEGALES",
+    "etiquetas": [
+     "Ley 21526"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21526_Divorcio_Incausado",
+   "n_unidades_umj": 1531,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21545",
+   "codigos_legado": [
+    "ley_21545"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21545",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1190123",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-salud/2023-03-10/21545",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-salud",
+    "fecha_publicacion": "2023-03-10",
+    "numero": "21545",
+    "titulo": "ESTABLECE LA PROMOCIÓN DE LA INCLUSIÓN, LA ATENCIÓN INTEGRAL, Y LA PROTECCIÓN DE LOS DERECHOS DE LAS PERSONAS CON TRASTORNO DEL ESPECTRO AUTISTA EN EL ÁMBITO SOCIAL, DE SALUD Y EDUCACIÓN",
+    "etiquetas": [
+     "Ley 21545"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21545_Salud_Mental",
+   "n_unidades_umj": 403,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21556",
+   "codigos_legado": [
+    "ley_21556"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21556",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1191003",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior-y-seguridad-publica/2023-04-10/21556",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior-y-seguridad-publica",
+    "fecha_publicacion": "2023-04-10",
+    "numero": "21556",
+    "titulo": "MODIFICA LA LEY N° 17.798, SOBRE CONTROL DE ARMAS, PARA AUMENTAR LA PENA DEL DELITO DE PORTE DE ARMAS EN LUGARES ALTAMENTE CONCURRIDOS",
+    "etiquetas": [
+     "Ley 21556"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21556_Nain_Retamal",
+   "n_unidades_umj": 26,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21561",
+   "codigos_legado": [
+    "ley_21561"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21561",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1191554",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-trabajo-y-prevision-social/2023-04-26/21561",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-trabajo-y-prevision-social",
+    "fecha_publicacion": "2023-04-26",
+    "numero": "21561",
+    "titulo": "MODIFICA EL CÓDIGO DEL TRABAJO CON EL OBJETO DE REDUCIR LA JORNADA LABORAL",
+    "etiquetas": [
+     "Ley 21561"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21561_Jornada_40h",
+   "n_unidades_umj": 337,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21577",
+   "codigos_legado": [
+    "ley_21577"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21577",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1193423",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-interior-y-seguridad-publica/2023-06-15/21577",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-interior-y-seguridad-publica",
+    "fecha_publicacion": "2023-06-15",
+    "numero": "21577",
+    "titulo": "FORTALECE LA PERSECUCIÓN DE LOS DELITOS DE DELINCUENCIA ORGANIZADA, ESTABLECE TÉCNICAS ESPECIALES PARA SU INVESTIGACIÓN Y ROBUSTECE COMISO DE GANANCIAS",
+    "etiquetas": [
+     "Ley 21577"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21577_Delitos_Informaticos",
+   "n_unidades_umj": 974,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21595",
+   "codigos_legado": [
+    "ley_21595"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21595",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1195119",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-justicia-y-derechos-humanos/2023-08-17/21595",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-justicia-y-derechos-humanos",
+    "fecha_publicacion": "2023-08-17",
+    "numero": "21595",
+    "titulo": "LEY DE DELITOS ECONÓMICOS",
+    "etiquetas": [
+     "Ley 21595"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21595_Delitos_Economicos",
+   "n_unidades_umj": 1997,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21600",
+   "codigos_legado": [
+    "ley_21600"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21600",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1195666",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-medio-ambiente/2023-09-06/21600",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-medio-ambiente",
+    "fecha_publicacion": "2023-09-06",
+    "numero": "21600",
+    "titulo": "CREA EL SERVICIO DE BIODIVERSIDAD Y ÁREAS PROTEGIDAS Y EL SISTEMA NACIONAL DE ÁREAS PROTEGIDAS",
+    "etiquetas": [
+     "Ley 21600"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21600_Litio",
+   "n_unidades_umj": 2631,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21643",
+   "codigos_legado": [
+    "ley_21643"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21643",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1200096",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-trabajo-y-prevision-social/2024-01-15/21643",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-trabajo-y-prevision-social",
+    "fecha_publicacion": "2024-01-15",
+    "numero": "21643",
+    "titulo": "MODIFICA EL CÓDIGO DEL TRABAJO Y OTROS CUERPOS LEGALES, EN MATERIA DE PREVENCIÓN, INVESTIGACIÓN Y SANCIÓN DEL ACOSO LABORAL, SEXUAL O DE VIOLENCIA EN EL TRABAJO",
+    "etiquetas": [
+     "Ley 21643"
+    ]
+   },
+   "vault_dir": "Vigente/Ley_General/Ley_21643_Ley_Karin",
+   "n_unidades_umj": 478,
+   "notas": []
+  },
+  {
+   "umj_codigo": "ley_21719",
+   "codigos_legado": [
+    "ley_21719"
+   ],
+   "origen": "umj",
+   "slug_propuesto": "ley_21719",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1209272",
+   "verificacion_id_norma": "confirmado_por_pack",
+   "bcn": null,
+   "vault_dir": "Vigente/Ley_General/Ley_21719",
+   "n_unidades_umj": 1566,
+   "notas": []
+  },
+  {
+   "umj_codigo": null,
+   "codigos_legado": [
+    "ley_18892"
+   ],
+   "origen": "grafo",
+   "slug_propuesto": "ley_18892",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30265",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-economia-fomento-y-reconstruccion/1989-12-23/18892",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-economia-fomento-y-reconstruccion",
+    "fecha_publicacion": "1989-12-23",
+    "numero": "18892",
+    "titulo": "LEY GENERAL DE PESCA Y ACUICULTURA",
+    "etiquetas": [
+     "LEY GENERAL DE PESCA Y ACUICULTURA",
+     "Ley 18892"
+    ]
+   },
+   "vault_dir": null,
+   "n_unidades_umj": null,
+   "notas": [
+    "El idNorma sale del bcn_idnorma del nodo en graph-legal-ir; BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": null,
+   "codigos_legado": [
+    "ley_21455"
+   ],
+   "origen": "grafo",
+   "slug_propuesto": "ley_21455",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1177286",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-medio-ambiente/2022-06-13/21455",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-medio-ambiente",
+    "fecha_publicacion": "2022-06-13",
+    "numero": "21455",
+    "titulo": "LEY MARCO DE CAMBIO CLIMÁTICO",
+    "etiquetas": [
+     "Ley 21455"
+    ]
+   },
+   "vault_dir": null,
+   "n_unidades_umj": null,
+   "notas": [
+    "El idNorma sale del bcn_idnorma del nodo en graph-legal-ir; BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": null,
+   "codigos_legado": [
+    "ley_20551"
+   ],
+   "origen": "grafo",
+   "slug_propuesto": "ley_20551",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1032158",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-minera/2011-11-11/20551",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-minera",
+    "fecha_publicacion": "2011-11-11",
+    "numero": "20551",
+    "titulo": "REGULA EL CIERRE DE FAENAS E INSTALACIONES MINERAS",
+    "etiquetas": [
+     "Ley 20551",
+     "REGULA EL CIERRE DE FAENAS E INSTALACIONES MINERAS"
+    ]
+   },
+   "vault_dir": null,
+   "n_unidades_umj": null,
+   "notas": [
+    "El idNorma sale del bcn_idnorma del nodo en graph-legal-ir; BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": null,
+   "codigos_legado": [
+    "ley_21435"
+   ],
+   "origen": "grafo",
+   "slug_propuesto": "ley_21435",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1174443",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-obras-publicas/2022-04-06/21435",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-obras-publicas",
+    "fecha_publicacion": "2022-04-06",
+    "numero": "21435",
+    "titulo": "REFORMA EL CÓDIGO DE AGUAS",
+    "etiquetas": [
+     "Ley 21435"
+    ]
+   },
+   "vault_dir": null,
+   "n_unidades_umj": null,
+   "notas": [
+    "El idNorma sale del bcn_idnorma del nodo en graph-legal-ir; BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": null,
+   "codigos_legado": [
+    "ley_19473"
+   ],
+   "origen": "grafo",
+   "slug_propuesto": "ley_19473",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "30840",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-de-agricultura/1996-09-27/19473",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-de-agricultura",
+    "fecha_publicacion": "1996-09-27",
+    "numero": "19473",
+    "titulo": "SUSTITUYE TEXTO DE LA LEY N° 4.601, SOBRE CAZA, Y ARTICULO 609 DEL CODIGO CIVIL",
+    "etiquetas": [
+     "Ley 19473",
+     "SUSTITUYE TEXTO DE LA LEY N° 4.601, SOBRE CAZA, Y ARTICULO 609 DEL CODIGO CIVIL"
+    ]
+   },
+   "vault_dir": null,
+   "n_unidades_umj": null,
+   "notas": [
+    "El idNorma sale del bcn_idnorma del nodo en graph-legal-ir; BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": null,
+   "codigos_legado": [
+    "ley_20920"
+   ],
+   "origen": "grafo",
+   "slug_propuesto": "ley_20920",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1090894",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-medio-ambiente/2016-06-01/20920",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-medio-ambiente",
+    "fecha_publicacion": "2016-06-01",
+    "numero": "20920",
+    "titulo": "ESTABLECE MARCO PARA LA GESTIÓN DE RESIDUOS, LA RESPONSABILIDAD EXTENDIDA DEL PRODUCTOR Y FOMENTO AL RECICLAJE",
+    "etiquetas": [
+     "Ley 20920"
+    ]
+   },
+   "vault_dir": null,
+   "n_unidades_umj": null,
+   "notas": [
+    "El idNorma sale del bcn_idnorma del nodo en graph-legal-ir; BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": null,
+   "codigos_legado": [
+    "ley_21368"
+   ],
+   "origen": "grafo",
+   "slug_propuesto": "ley_21368",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1163603",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-medio-ambiente/2021-08-13/21368",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-medio-ambiente",
+    "fecha_publicacion": "2021-08-13",
+    "numero": "21368",
+    "titulo": "REGULA LA ENTREGA DE PLÁSTICOS DE UN SOLO USO Y LAS BOTELLAS PLÁSTICAS, Y MODIFICA LOS CUERPOS LEGALES QUE INDICA",
+    "etiquetas": [
+     "Ley 21368"
+    ]
+   },
+   "vault_dir": null,
+   "n_unidades_umj": null,
+   "notas": [
+    "El idNorma sale del bcn_idnorma del nodo en graph-legal-ir; BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": null,
+   "codigos_legado": [
+    "ley_21660"
+   ],
+   "origen": "grafo",
+   "slug_propuesto": "ley_21660",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1202472",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-medio-ambiente/2024-04-10/21660",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-medio-ambiente",
+    "fecha_publicacion": "2024-04-10",
+    "numero": "21660",
+    "titulo": "SOBRE PROTECCIÓN AMBIENTAL DE LAS TURBERAS",
+    "etiquetas": [
+     "Ley 21660"
+    ]
+   },
+   "vault_dir": null,
+   "n_unidades_umj": null,
+   "notas": [
+    "El idNorma sale del bcn_idnorma del nodo en graph-legal-ir; BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": null,
+   "codigos_legado": [
+    "ley_21100"
+   ],
+   "origen": "grafo",
+   "slug_propuesto": "ley_21100",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1121380",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-medio-ambiente/2018-08-03/21100",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-medio-ambiente",
+    "fecha_publicacion": "2018-08-03",
+    "numero": "21100",
+    "titulo": "PROHÍBE LA ENTREGA DE BOLSAS PLÁSTICAS DE COMERCIO EN TODO EL TERRITORIO NACIONAL",
+    "etiquetas": [
+     "Ley 21100"
+    ]
+   },
+   "vault_dir": null,
+   "n_unidades_umj": null,
+   "notas": [
+    "El idNorma sale del bcn_idnorma del nodo en graph-legal-ir; BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": null,
+   "codigos_legado": [
+    "ley_21202"
+   ],
+   "origen": "grafo",
+   "slug_propuesto": "ley_21202",
+   "regla": "R2",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1141461",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/ley/ministerio-del-medio-ambiente/2020-01-23/21202",
+    "tipo_bcn": "ley",
+    "organismo_bcn": "ministerio-del-medio-ambiente",
+    "fecha_publicacion": "2020-01-23",
+    "numero": "21202",
+    "titulo": "MODIFICA DIVERSOS CUERPOS LEGALES CON EL OBJETIVO DE PROTEGER LOS HUMEDALES URBANOS",
+    "etiquetas": [
+     "Ley 21202"
+    ]
+   },
+   "vault_dir": null,
+   "n_unidades_umj": null,
+   "notas": [
+    "El idNorma sale del bcn_idnorma del nodo en graph-legal-ir; BCN lo confirma por idNorma y por tipo y número (2026-09-29)."
+   ]
+  },
+  {
+   "umj_codigo": null,
+   "codigos_legado": [
+    "ds_40_2012"
+   ],
+   "origen": "review_graph",
+   "slug_propuesto": "decreto_40_2013_minmedioambiente",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "1053563",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dto/ministerio-del-medio-ambiente/2013-08-12/40",
+    "tipo_bcn": "dto",
+    "organismo_bcn": "ministerio-del-medio-ambiente",
+    "fecha_publicacion": "2013-08-12",
+    "numero": "40",
+    "titulo": "APRUEBA REGLAMENTO DEL SISTEMA DE EVALUACIÓN DE IMPACTO AMBIENTAL",
+    "etiquetas": [
+     "APRUEBA REGLAMENTO DEL SISTEMA DE EVALUACIÓN DE IMPACTO AMBIENTAL",
+     "Decreto 40"
+    ]
+   },
+   "vault_dir": null,
+   "n_unidades_umj": null,
+   "notas": [
+    "El idNorma sale de la URL de origen de sus unidades en app.db de graph-legal-ir; BCN lo confirma por idNorma y por tipo y número (2026-09-29).",
+    "La cita usual lleva el año 2012, en que se dictó; R4 usa el de publicación según BCN (2013-08-12). El código heredado queda como alias. Confirmar en la revisión."
+   ]
+  },
+  {
+   "umj_codigo": null,
+   "codigos_legado": [
+    "ds_95_2001"
+   ],
+   "origen": "review_graph",
+   "slug_propuesto": "decreto_95_2002_minsegpres",
+   "regla": "R4",
+   "estado_alta": "propuesta",
+   "bloqueo": null,
+   "id_norma_bcn": "205385",
+   "verificacion_id_norma": "verificado_bcn_2026-09-29_busqueda",
+   "bcn": {
+    "uri": "http://datos.bcn.cl/recurso/cl/dto/ministerio-secretaria-general-de-la-presidencia/2002-12-07/95",
+    "tipo_bcn": "dto",
+    "organismo_bcn": "ministerio-secretaria-general-de-la-presidencia",
+    "fecha_publicacion": "2002-12-07",
+    "numero": "95",
+    "titulo": "MODIFICA REGLAMENTO DEL SISTEMA DE EVALUACION DE IMPACTO AMBIENTAL",
+    "etiquetas": [
+     "Decreto 95"
+    ]
+   },
+   "vault_dir": null,
+   "n_unidades_umj": null,
+   "notas": [
+    "Sin candidato local: idNorma elegido entre 12 decretos 95 publicados entre 2000 y 2002; es el único de SEGPRES sobre el SEIA, y su publicación coincide con el inicio de vigencia que usa review-graph. Confirmar en la revisión.",
+    "La cita usual lleva el año 2001, en que se dictó; R4 usa el de publicación según BCN (2002-12-07). El código heredado queda como alias. Confirmar en la revisión."
+   ]
+  }
+ ]
+}

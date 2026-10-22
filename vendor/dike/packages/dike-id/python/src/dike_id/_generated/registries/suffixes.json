@@ -1,0 +1,38 @@
+{
+ "registry": "suffixes",
+ "version": "1.0.0",
+ "orden_es_identidad": true,
+ "latinos": [
+  {"token": "bis", "introducido_en": "2.0.0", "evidencia": "corpus"},
+  {"token": "ter", "introducido_en": "2.0.0", "evidencia": "corpus"},
+  {"token": "quater", "introducido_en": "2.0.0", "evidencia": "corpus"},
+  {"token": "quinquies", "introducido_en": "2.0.0", "evidencia": "corpus"},
+  {"token": "sexies", "introducido_en": "2.0.0", "evidencia": "corpus"},
+  {"token": "septies", "introducido_en": "2.0.0", "evidencia": "corpus"},
+  {"token": "octies", "introducido_en": "2.0.0", "evidencia": "corpus"},
+  {"token": "nonies", "introducido_en": "2.0.0", "evidencia": "19 encabezados (p. ej. Código de Aguas 172 nonies)"},
+  {"token": "decies", "introducido_en": "2.0.0", "evidencia": "corpus"},
+  {"token": "undecies", "introducido_en": "2.0.0", "evidencia": "Código Sanitario 105 undecies; DFL 458 28 undecies"},
+  {"token": "duodecies", "introducido_en": "2.0.0", "evidencia": "Código Sanitario 105 duodecies"},
+  {"token": "terdecies", "introducido_en": "2.0.0", "evidencia": "Código Sanitario 105 terdecies"},
+  {"token": "quaterdecies", "introducido_en": "2.0.0", "evidencia": "no observado en el corpus local"},
+  {"token": "quindecies", "introducido_en": "2.0.0", "evidencia": "no observado en el corpus local"}
+ ],
+ "variantes_de_entrada": {"quáter": "quater", "quárter": "quater", "novies": "nonies"},
+ "letra": {
+  "forma": "a–z o la Ñ",
+  "enie": "enie (decisión T del 2026-09-29; el AST guarda «ñ»)",
+  "nunca": "ñ→n (7 colisiones reales)"
+ },
+ "letra_doble": {"forma": "aa–zz", "evidencia": "CT 183 AA … 183 AE (BCN 207436)"},
+ "subnumero": {
+  "forma": "1–999 sin relleno",
+  "evidencia": [
+   "CC 1792-1 … 1792-27, 225-2, 229-2 (BCN 172986)",
+   "Código de Aguas 129 bis 1 A … 129 bis 12 A (BCN 5605)",
+   "196 A 1 (BCN 29708)"
+  ]
+ },
+ "max_tokens": 4,
+ "regla_adyacencia": "S15"
+}

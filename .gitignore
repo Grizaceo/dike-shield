@@ -1,0 +1,29 @@
+# Secretos y entorno local
+.env
+.env.*
+!.env.example
+
+# Carpetas locales, nunca versionadas: notas de la máquina, artefactos privados,
+# estado aislado de Diké (corpus instalado, caches) y claves de demo
+.hackathon/
+.local/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node (sidecar de Meterless Engines)
+node_modules/
+engines/**/dist/
+
+# Datos de ejecución (las respuestas grabadas para SAMPLE_MODE sí se versionan en data/cache/)
+data/runtime/
+*.log
+
+# Artefactos de build de setuptools (pip/uv construyen dentro del árbol de vendor/dike)
+build/
+*.egg-info/

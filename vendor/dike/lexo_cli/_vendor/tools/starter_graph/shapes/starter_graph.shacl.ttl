@@ -1,0 +1,19 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lexo: <https://dike.invalid/vocab/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+lexo:LegalResourceShape a sh:NodeShape ;
+  sh:targetClass lexo:LegalResource ;
+  sh:property [ sh:path lexo:leychileCode ; sh:minCount 1 ; sh:maxCount 1 ] ;
+  sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ] .
+
+lexo:ArticleShape a sh:NodeShape ;
+  sh:targetClass lexo:Article ;
+  sh:property [ sh:path lexo:eId ; sh:minCount 1 ; sh:maxCount 1 ] ;
+  sh:property [ sh:path lexo:isPartOf ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+lexo:TemporalWindowShape a sh:NodeShape ;
+  sh:targetClass lexo:TemporalWindow ;
+  sh:property [ sh:path lexo:from ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:date ] ;
+  sh:property [ sh:path lexo:to ; sh:maxCount 1 ; sh:datatype xsd:date ] .

@@ -1,0 +1,1214 @@
+{
+ "defects": {
+  "0050e052ffed9b1bad8da1222193c55db19541d9c601ca7943d456a1d85acba6": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0013",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "00ed231b0b9e4cf7889ad88ea427a8d642f733eef0181b7ab0282dc85fd0e743": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0157_sexies",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "00fdb17db7fcee6f823c267d34b7773b7b0d0dd9d1daf0ce866794462391b047": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020_a",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "01add9295799b159983cedc406f4ce3ab6ced5b4355ee39d1d98735319c3b183": {
+   "detail": "sin identificador de parte de la BCN: el texto no se pudo verificar contra la fuente; además el rótulo es erróneo: es un artículo de la Ley 19.628 en el texto que le da la Ley 21.719, no un artículo de la Ley 21.719",
+   "eli": "https://dike.invalid/eli/cl/ley/21719/2024/art_0015",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "unverified_source"
+  },
+  "01f3d791bcb22c944ad4916b52116349713191a82912b95a691ff093ddc57c85": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020_n",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "02b41e0d0e580d8c1830d13a742ab426987ae1eff83fc414e136b2282184e91a": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0156_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "04a69fef4baab4f5a5af79720d294b1130da216e2dc3a484824480dc95bf2c2b": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0017",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "053b28069ca21ec6a5775130e513ce9d3463a8582b32328bde9733f95a4ceb37": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0035",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "0773a1ff2ef7c129946d498a449d0a250369a4d5055f57346dbfb2d48b8c1b33": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0043",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "07874fd339dbc9e82f4f834577439b40e8af689740110a7ec08d573802d6e7d8": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0151",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "07e639673875f16b8ec2cc424c529ddedfd22b2776e01be7484db65e249f15d5": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0008",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "082816cce065fa1b8a9c2a9310bcac56e44ddc0504c8ec609ca72b97a2e46518": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0092_j",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "0872e077f87cfbabf37e3d234efa5a619605130cb08f3facdcc334064cfd5bf8": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "09503df88ad21b5e4eab813b19c9f53e9dc1d1004ef0041f9b24c5643ecce10a": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0092_n",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "0d1b05bb5d2f0d2efe47f722d5d9d89f639de3fc56b8c4083cca8c1c46f041f5": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-procesal-penal/2000/art_0198",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "0da022b765ea35c52cc8e100b737f88820f616ca53941934d6104b2f13b41b8e": {
+   "eli": "https://dike.invalid/eli/cl/ley/16744/1968/art_0003",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "0de4cc40a1b4d1fc2d260507ff2bc6d5dfc269df8d6399be848f0cbf6737e107": {
+   "detail": "sin identificador de parte de la BCN: el texto no se pudo verificar contra la fuente; además el rótulo es erróneo: es un artículo de la Ley 19.628 en el texto que le da la Ley 21.719, no un artículo de la Ley 21.719",
+   "eli": "https://dike.invalid/eli/cl/ley/21719/2024/art_0014_sexies",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "unverified_source"
+  },
+  "0df53f57eabab1201291c30b2429a5175ce7ef0d10b7eda79718a544696a3fcf": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0092_k",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "10341afe799785757cc2a61fa7073b08c2198d78561eaeb1e8c719152147e109": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0014",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "note_anchor"
+  },
+  "10e96073a7fc5d5dc28e93999255d834d8c29b89fa37beec43156246f1ce4449": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0680",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "117d8f2c537e3d055ca9ce30baff597d3d68585925a04ee7a95d6e6f46d322ec": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0113",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "12bdede43d68b7254e71c4a43b2a943995b4b1764d13f8e0b67beac2d157f9e0": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0038",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "12c720eee202c65c6ed29b1f3cbcfe6d70497a9094956459ab5da77f8a6d41dd": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0309",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "1363c152c39c5bbfa10153d2ddf942fed972151abcad9edfdc8f3fd663ee7733": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0025",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "13be9c059b5dbd34ca825848beff82a151ee1cf57ed27ce2a4df74b698a20268": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0011",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "14f7820de98a9eb90c4cd9aea456afe58038027070ad422bd2e50e18cb86e2de": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0036",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "1539712a3eb51159a88853017ece02098c7087245598e2e619365a49fda829c4": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0092_l",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "15bea013450deb2e2f4fee5640f9d7e9cc8209ab75d26e7db532c8d07d69c10a": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0156",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "1816ecd1882640523b9cf96ffecf5dc29b9f92ae484612e990a00509d19ddf21": {
+   "eli": "https://dike.invalid/eli/cl/ley/19728/2001/art_0058_e",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "1845e21e0d89b8c154f9f633840c371a3cebeeceed4a54a24d72180d7fc84c7b": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0056",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "note_anchor"
+  },
+  "18491735e978caab67e8de89057a943f6991f68b0322a4ce4180d6a344bc08db": {
+   "eli": "https://dike.invalid/eli/cl/ley/16744/1968/art_0065",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "1e6cfe3806ad2e1af490d6f8c0df215200424b08093d0ed1f65d66b270a7b295": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0092_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "1fcec91cfe4e3fc60a75b9e628acb93bf5708a503a70c5e2f573cb54805399a9": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0029",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "1fd48fd0b2a864e9eb7f211e54752a9957921569e0ba1f9dba1d287a2e2df91f": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0108",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "209e49f0f4d424e3be3b66340dfa773e4205a7414cf9306dd143cf3690524f30": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0098_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "20df8306b2400d61707a5f5b01117413ba95cde02e654a5653f009160f5540d4": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0012",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "219e284929606b79326270af6a43b1ffef829a534f7745963234bdbcf1d1bca9": {
+   "eli": "https://dike.invalid/eli/cl/ley/16744/1968/art_0015",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "21ef3aed6aa1abfe5ff2881a25d9d039c1824f5c71ce755890ba46be8d83f220": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0149",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "21fd8d0587f9cada4f8baf04e118d21e9ea7828b6f9eae3f46403cab4f06499a": {
+   "eli": "https://dike.invalid/eli/cl/ley/19496/1997/art_0024",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "22846c1ceb4502497a5fe860cf4c0ba29cd9a091d7e36066727c0d07fc912bdb": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0017_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "229648b3027e7332a013f6882aecf0e9678903c99c7e5f4fa92aeda710017a9d": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-organico-tribunales/1943/art_0595",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "231cd83c3fb86dc15e0bbd822521516cff0dc96e920461deff7fecb67363923a": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-procesal-penal/2000/art_0199_bis_e",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "247617fb0311fafcfac1f63e0dff38837353d5172db86b2d45d3c8e6ddd10054": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-organico-tribunales/1943/art_0473",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "261929418244684778d641f7ced88391e198d78bf1f59312a09769454990c890": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0223_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "2790547ce5566154cf0589c1b6a79c5a3fcc81e96d73d3a6c6517be8aaba01a4": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020_k",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "2a73d213829d344ce65aa45a372ff49098b038686e8dc85f061a5a86a8bdec70": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0055",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "2a86a1721d3bd35c1eb34df7ffd930b1fc6cdaed134dc8357687fe01f7b8bdfc": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0119",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "2b0011f967d4a19bf78b5fa88a3f21ffd60ba6947b05d055b6722ad31cfdd102": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0063",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "2b13cb132c9064b3d4eb3cc05c8b06d4fe877161908383bae57ff63c5ee0ccda": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0751",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "2b965019ec928cdffc380dde6c6794bca03038ad15e9db0b74140e28d0e8b274": {
+   "eli": "https://dike.invalid/eli/cl/ley/19728/2001/art_0058_g",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "2d32d1260f809521b1aec98fdfaa7a60ad72e0b6c4e5bf0969988ad4af247a96": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0104",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "2d7994b2d899e68382cc7d1da8afa8494a4944c80c02d432e1e756f163f9b4fd": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0050_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "2e2b33f766cc9d1e3cfc072d19a1b08335fa4218dfd9ad691ac57adc8c8e1b6c": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020_g",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "2f7ce8848e6be9590d79e778c9015f6d4b1a1ce79e1cbb962fe41c7d30aa006c": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0022",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "30cef3c85e28f8941452720fbfccaed1c60566bf167261144d24137d567a4012": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0019",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "313af965a87bf74cc2dc92fa7eab0d7c46e668668832bc7b25bda1ecd7b9fdcb": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0009",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "31a7e3551e60cf33edd57312623d878c399c37bcef4df7698e98cf4725607054": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0007",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "31f736e1c400337f345beeff1f4edde9f1493c9f692a4b6362ceaca766113396": {
+   "eli": "https://dike.invalid/eli/cl/ley/20720/2013/art_0247",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "3368ff817804a6d45b3eb123b3f534a36f93668c2b893f9fdf9f8689dd979995": {
+   "eli": "https://dike.invalid/eli/cl/ley/19496/1997/art_0017",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "35b18a52b7b607680cee1315c23cf02117891b26fa771c00469f21ceed19f78e": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0138",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "35e1b70469d83900e9e73c74816a55a9daa5a63c6a6f2a04cc5fd08c8e819715": {
+   "eli": "https://dike.invalid/eli/cl/constitucion/constitucion/2005/art_0020",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "36ad1394e07222c9e75f2a5dc24f698575b31abca8198e44ec4faf9387fde360": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0115",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "38ca84d2538f5550fe31dd8db2a4e8e8466122a634f5ecce4799b4d9761abbc2": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0052",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "39919bc02aef5ea23a24bbddaea786a8baadd296f88966857396094e20a0c98c": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0046",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "399f4b2e86b22996f4bc1f451c33dffdfffbf01b7a7e1a185198538c95bd9c37": {
+   "eli": "https://dike.invalid/eli/cl/ley/20000/2005/art_0004",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "3bbd27ab07b50bc03ae7713e111b9ff50750ddd7cf26540f22b38aa90b2ab5d0": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020_i",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "3de731597757727f953f03a294708668f5c42924eed1eb311b5867e1985b4c4f": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0646",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "3e817b14d27392d53c2029421d01579eb1fc689417434b9cce5c2887f819608d": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0144",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "3e8d71ef1de469434fda9860c3bf815a5805bf03f56202a5861d83ba361bcaa9": {
+   "eli": "https://dike.invalid/eli/cl/ley/16744/1968/art_0005",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "435e35a0e63fa2bf5063afcb3e92a7f075fdc043c81784f44b10b9c5eb49fd65": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0037",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "note_anchor"
+  },
+  "437222e95be5e43ee56e876b0a00bac23c87422d70bb5958d1bf4d96f9356904": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0092_m",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "44ebd6fba8288c0d455f81c7d31bca050c3630de90d78b8d7b2f59e4e64d9fe4": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-organico-tribunales/1943/art_0103",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "45c8967b909546a0f7b2ceadecd220ed1ccc7264038280e3f31c73d6238e56df": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-civil/1900/art_1337",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "467deb21b288de63dc919fb786f0ce24a5ca51c1f08fd3a0713c6002f8d45e38": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0102",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "474ad8827654a81209ae5f886730b202a50d05058ef040398e94c72724264bda": {
+   "eli": "https://dike.invalid/eli/cl/ley/16744/1968/art_0076",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "4b0e9a55324503e3d19c9c8bd2bfbd0b2fa90e19f183e4affef7df4406dd4bbc": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0071",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "note_anchor"
+  },
+  "4dddeb367184867d7be82a86dd906f40e8257ff239c2ea608f71ece2fdbbb51d": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0110",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "51758437d9c739ce7a7e82fa7496e8b1764875b94b252ade106290ab5fd287d6": {
+   "detail": "sin identificador de parte de la BCN: el texto no se pudo verificar contra la fuente; además el rótulo es erróneo: es un artículo de la Ley 19.628 en el texto que le da la Ley 21.719, no un artículo de la Ley 21.719",
+   "eli": "https://dike.invalid/eli/cl/ley/21719/2024/art_0015_ter",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "unverified_source"
+  },
+  "545ef9acc50fbfc3e02ff2374b51fe0987caf45206ad822eb04f8f410b17c1b4": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0004",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "552d7d92d4f5dab3d94cdd1a78361f4e7e513e18fae60a7e56f07e1189c41ac0": {
+   "eli": "https://dike.invalid/eli/cl/ley/19496/1997/art_0037",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "55498bcfbed5c4a97be59ddc553baa1089615afcf3e46487e81136e2e221d940": {
+   "eli": "https://dike.invalid/eli/cl/ley/16744/1968/art_0083",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "556ef302088e477c83cf529bfab9592af45f092923c91d5874fda2f563fdcdff": {
+   "eli": "https://dike.invalid/eli/cl/ley/18046/1981/art_0035",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "565d3d9d1c4d17eaf883dfb8a7de5a1b1ec0ddfb325e18dd3491d1ab57a137e7": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-aguas/1981/art_0132",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "57e3ffb42d0111ad851deeb58e06465848aeda8a92fadccd56bae768293dd66d": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0427_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "59c41f3f9e7122c2e05267057a98d0d13cd50f71e65452a3cee01969601393a9": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0094",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "5aa3da24cad15395ac576d9edb023a4bed5ad3824b24fabddad262f0dc84fc51": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020_d",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "5c50d081cc2f602abc0a09a896fa281023ddadc9215062c987a85898e6ceaaf8": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0072_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "5c87103e7b89c031271baf2c10f987fac4516a12a961a4b945ae83e907fe5f2b": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0121",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "5d53b5e1a3bd1e4ea2e52e31701383772d7967dcc402e8280be42fd350234331": {
+   "eli": "https://dike.invalid/eli/cl/ley/19496/1997/art_0059",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "5e106370169d84a56ea44f9c4ff7b1c4b82410e83c8f29256991d9924b18cd37": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0111",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "5ef34d58324b87493dc867a759d833dc204369c06bc6687713e8d5d5eb989301": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0022",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "5f129580e758d2d1daa6d7e3f254a379d92b7d3be1bc7cb599ef5e0df6bd7b23": {
+   "eli": "https://dike.invalid/eli/cl/ley/19728/2001/art_0058_c",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "5f33a6e8ce149516ea6f4af554462dac76c6788d0d56b41f2203b633a815e23e": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0153",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "5f3d8d5c7ee7c4696a9de196b12f66b58e490ad850565e722898bcc91f94c1f2": {
+   "eli": "https://dike.invalid/eli/cl/ley/19728/2001/art_0058_b",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "5f54daaf38d9d4ca7665875c566eb381785d04b29005edfb6387fe8bfce5e651": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0112",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "5f943a637ed5ca0b6d66d7fc9682f5754679eaba82c0a38f3f00924c97e9be36": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-tributario/1974/art_0085_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "5fb05776f3ff8b43809ee1a8f23c69fd58654891eb89f6cb834943b458fc0f5c": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0197_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "612a40499d947e68aad71b0fc9bd58c50860c92b79ea3ffacaf9c572552ea29f": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-organico-tribunales/1943/art_0006",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "61d6477916e6258daeec4f6a1eb3f69f698f21e952e32594db79fc75403a6b2a": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0148",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "6298df8fd211adba7735caf29448a31b54fbbcf5f7496692da4bd2a608a5c0e3": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0034_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "64ea6a20acec34412a0751f1fc08214d1295be57d7762c8119dc80669fb408c5": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0049",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "64f491ec494107a51b93049d02c5e9354dbd75ab56b52b0b5964bf6771b404b9": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0087",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "65505115c3de38e73203fd41a1aef4c4424a3df407c6042eea219dd6f52f1af4": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0002",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "65bbae069c0f2f4bf29f6ee288447a84cba47a937e538bfa19c99918c0c5ecb3": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-organico-tribunales/1943/art_0037",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "678c43706d99eeaa9cb6c3849a41cc90039588605fe4a8af7746cafe0039c330": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0223",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "685def72e1a4dc900a6c275841f142c6768126b530262c358714a92b98238762": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-tributario/1974/art_0180",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "6882bba2a0c4fd4f9ed83294a8cb1603e400c78ecfd1a66bc2f3c09a59b8160c": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0011_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "68a28f2ffb0a69870a00d5dc15c8f995b9a802535d81cba959ab25d0448fdc9c": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0044",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "68afa010c2d27c73f430293933097d15aa413bee14eaf519f4945804aaaababf": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0022_e",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "6938bb1d65a03dc5ae6c9289a39c4b602f832373d71ca09f51b7ef3b461f7059": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-comercio/1865/art_0984",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "6a0ddf061fe7cf172175e2d44d25324a0d3ed8a4851cfff50414f089e558ed79": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0001",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "note_anchor"
+  },
+  "6ae2c4b5af5ca7befb98b25a7ae8b1e9380b7edc6213fde09e7c9fc91f142b14": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-tributario/1974/art_0033_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "6b000942d768fae7cf4be3f46c6634534fdadbbea6c5b344d334d6fbb142feee": {
+   "eli": "https://dike.invalid/eli/cl/ley/16744/1968/art_0020",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "6e77692bcd8ccc395daf0bdf138b8202f2b0f3f53ef84079f73594fe5d0230db": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0155",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "6f12319307ea92c4fdc00dd64fcec031abba345bb6c5367cef0607979eeb94f0": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0070",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "6f42e99cca2b95ea199b72526badbe79663efe0c682f56e8eb418ed9bb83fa55": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0102",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "6fe893ff6f589898dfe441583793848a00d2e2f7b048cc134e5e7da2288a3bc5": {
+   "detail": "sin identificador de parte de la BCN: el texto no se pudo verificar contra la fuente; además el rótulo es erróneo: es un artículo de la Ley 19.628 en el texto que le da la Ley 21.719, no un artículo de la Ley 21.719",
+   "eli": "https://dike.invalid/eli/cl/ley/21719/2024/art_0016",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "unverified_source"
+  },
+  "71efdd3441d6eeb428987eec107c4d8b4fe87f693cbe7adde506b15334901f63": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0018",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "73945545ea066cd69852fa6fc07adf085381584997c7bf0e91e69b4249056208": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0092",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "7412e3004e6deef42b4fa1597f8b739cac132c1281036bad1bff2cc840bf9851": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0445",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "74183161eac90b5a93e1249bee19a78dfdeb1546c34a96a6c16f8b9583608b31": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-comercio/1865/art_0622",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "761a0752ded7f812dfa3d33a0d48550a3698aafe85d6946e8de161abbcf1e8a2": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0485",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "784f495dc7add491935e4a56aaea38b2bf02160ef8a79f630f1b2d53a8469e4b": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0109",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "78a60ce037ae8e7bd46807d35c8382960b6294cea09056702e7a65bfe8dc5284": {
+   "eli": "https://dike.invalid/eli/cl/ley/16744/1968/art_0016",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "7904651f94fd251b0f8d7e8fe6f856aa58230e1c3bc52a3a7d2beb4242507182": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-comercio/1865/art_0280",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "7a8269d3e24aa03c51f94079bb6a3fc452dce3c7d28303184313bdf3270fe42f": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0053",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "7ad6c728d961caa6aded07afe95a1e2196674d7831bb69bd45fd0aec848944f5": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0022_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "7b90b666141b6bd2f26d2e0711f8a5f7089c8d20fd20747a62cb664e973b6226": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0361",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "7ed808801ff2b54ad68f48a8ede382740871c89c2ed4fe206f4fa9b5120c55b0": {
+   "eli": "https://dike.invalid/eli/cl/ley/16744/1968/art_0030",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "81ec9b0a025de0218903d807301f1a5b81c7f7943e47f0ccd831adc3e220a7b9": {
+   "eli": "https://dike.invalid/eli/cl/ley/16744/1968/art_0002",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "842518de7e45e9154451589fe16762e28f01a99de0b5c2b6a88782b6a76c852a": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0169",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "84a265b5efb58e5c23bdd974bc67d0a7b807a30382be7cf64d5b00fc561db73f": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0020",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "871003addf86bf59ff80a1fcb1f048de0976d322daa695d3d4a840f0ade5bfbe": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0184",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "880e584820824f7c4387ce59a03cb204ce640c23a5a54ba6e1ff5f8e8cf11c63": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-tributario/1974/art_0021",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "8860677b6bbe95f684fc4d6971f260e7815919dcd4e5a85235796500e5862921": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-comercio/1865/art_0338",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "89f0184fd9f24a696350398e68937d063bdf19158d5d1712b922465da6b3948b": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0002",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "8b5e0dfa42d8abf4bcbac1891207c5f867953dd30cf48d22ef87c049aa2f1c3e": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0032",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "8b75cd9c91d30a7107aaa5e4e16a789cfc2b8072ae248b23be83627c15b77fab": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-tributario/1974/art_0192",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "8d137be5f2de296f20a57cc9aa04617867abb6567c38dfb031268287267922d2": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0012",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "8f2f5dd03b820494c2e50032631c92e7469f44247ac2dedbed0ab9b6afbd4690": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0026",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "8f781674ba77822535dbd6d1bef54f22877c0776b3ae85f863da44b65cc260ff": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0090",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "8fc26a585ac8c2affd64d3bf4ea0ba5a823f17a089040eaac380213e257be4eb": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0411",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "908c9000cd7d802b1b0f82dda88afa5fd06199b330e1f3e039c0450af414e89f": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0001",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "909c5943d327162ee267518ceea030db09c81117b0931c91f0f31a9be6623b08": {
+   "eli": "https://dike.invalid/eli/cl/ley/18046/1981/art_0069_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "94c0b98cff7ad08df2c55c9d62595d25e1624f8b4fb8df1042f838263350c67d": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0069",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "9562e6b7d09bb4a615ec0a60ec5579fbb640eee50960bdf69bf4886484d8fe47": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0072",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "98a34a972978d56096d4601ec1da515a3cc5e80a89e01738705b1e843738c088": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0006",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "9a187265b6237885c9fe9a09a9251cb1a36ae25a09ec7c4ed5eac18d23ffe752": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-civil/1900/art_0188",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "9b34345944e1192e8fc7d431647b99e75eec8a761548ad19872e5f6f2566d1c9": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-tributario/1974/art_0006",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "9b65eb339586ef5dd12bedcaa06aa4c323baa2f863c1a254850ee095b4680c74": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0029",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "9bd1b4fdeb609300aebc011f95879ad885c41e011698bd513c7f99ab3d39d1c1": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-comercio/1865/art_0917",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "9c5c7009d0dcdf734ba91a1180b6c6df93aec26a240f779eb90cfe1489b97aac": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020_j",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "9cf13b6c5dbc9c9c2e362b1121ff25518fe90639296831d9066ba90f984c86b1": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-procesal-penal/2000/art_0140",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "a1b1db06575bd0fd865d85f5b232bac7015d66e6d714731fea8176840553c022": {
+   "eli": "https://dike.invalid/eli/cl/constitucion/constitucion/2005/art_0116",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "a2b61b7a80c8ae31c64cc85034df9b72c6bbc6736fdaa0f8d9fc96d1b7fb04d4": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0088",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "a3f955465b62d54ea66a06bf63cbc351c30f49e9a014ca119ea53ca594eb8d18": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0039",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "a499e486d3972d86e9eca42225e61026d1d77950b34ce8d7b3ba59872780348a": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0057",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "a4e54984732dc3773ec991d91733297f3fd99663a3424e4d7d7723b758a347f0": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0005",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "a518c68075542c9bb0082560347ad3cd2ad5ea25c148202d04badb28deff43a4": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-tributario/1974/art_0065_ter",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "a5e83add5c4c73a996785161aef3e1aea067eb982ca6303151814f7ac967a9d2": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0106",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "a65b388652ade77d48575b51658b68605347663f45d35ac6685cf96cadeef789": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-comercio/1865/art_0795",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "a94b933b6a4b55f262f3eccfdcf4b1b862b6313a09b85cffde250ea36b030dce": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0003",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "aa4bba0359136969f4b7ff00865eaa9e308811d78e4d9942b802987d6888dc2e": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0162",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "aac301a4313091a0a3391ace4c84e7583b34c98787208c1eb09495497505312c": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0008",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "note_anchor"
+  },
+  "ac7c8cd5849a2f9e470a55d38270c9315f606d430135496ec41ed79e2d870614": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-comercio/1865/art_0030",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "ad9ca9fe6b2c8734e44bdd6ab55647c3fcbbd423d0ec021b9bd262a131affca8": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-organico-tribunales/1943/art_0433",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "ae93a106a38d9d6ca96dfd69211df928b7ac2e047a0122b8262d7d8abafbbb4c": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-tributario/1974/art_0027",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "b13ff22a1194f6bb8bda1a19ff44b3f8ffb360320e10407f50cb068e1bf89ad4": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0060",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "b17ccb1f8aa4ffb317afcc67015c2d2be25f48fadca5801ef3b31196c73de035": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-procesal-penal/2000/art_0109",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "b1bf6ffd8969656af174f5878658cc7bd775efcca7ccdb3e7c9b1c7948af9ba9": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0065",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "b3631bd27710b9d860a847c692e04a6a41a02978170931a0166d70a36eb264b5": {
+   "eli": "https://dike.invalid/eli/cl/ley/19728/2001/art_0058_i",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "b4a02e898d9809ab0008d01e88571ee18a12be4d0fdc6d1d7651a03ce84a3b18": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0120",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "b4b3dfa200c33691c7bca898edb9691b943af4407e439374e1e9b9e1308ed662": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0018",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "b6117f0fd5d6e240d613d2527ce60c78650c15d592b3790103fff34c024fedf7": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-organico-tribunales/1943/art_0540",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "b6128676882ff4ed41782f744441530b807ddef2315bd13d15c03ca533de059a": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-tributario/1974/art_0022",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "b7fdc705cbce26c97b814f951e85e509f7d18e16b69d34594baacdda11af096d": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020_e",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "b8ff4a6a641ac31922f9d26739b9a2a47c03cb28d09cabeb815d953267e3a4fc": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020_b",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "b9f8a7a7c779f49caca3bc38f2bfc9bbfd519e6c046e0e47657ef82af1143d03": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0208",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "ba0d6547f783244669c7c4147945754adeb9e3e276b4adb08180afc032b1f408": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0031",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "bb29f439282b401d1bdff316b6444fd1ec35c287c8803d304a24c5b844318e2e": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0031",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "bc52bf8821d96655113a430879039f24c829fae19af9edccbf8d172b35f7e289": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0051",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "bce78bfb93d411e6eacc6094a3f81c18930c76badfe78e13cd0b7eca4d4209b8": {
+   "eli": "https://dike.invalid/eli/cl/ley/19628/1999/art_0017",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "bfc9b6fa2d31aea5c957712b219fe62024883e4fb82155743f0dbac1b982ccdb": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0107",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "c1c8a6863bf9b7bf3e8e806f9a60211eb05957037fe162b011f3e024da12f245": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0189",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "c57205f7d8ebf1a82dab5b934a249967f08e0ed285e03424849a29c982f96f8a": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0151",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "c588356b4b48638060c7afbbc41673a2018d383530f24f8e72ad742be394eb2c": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0114",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "c5d0c5dee1a8ed549877afd9b1bd99a4b129356f93a72cdb904f664a34796057": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0102_a",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "c5f506af481e4679b6914cafade07491dec2dfde04c4a90b1451388080147808": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0127",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "c88a66317bd95b4456ed81fd43c3d94841f9700f598686c7c354787e52282686": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020_f",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "c9bd883522e1031a183bcf3b7f8a4c43ba44157832049b60e04ceb304a6aae20": {
+   "eli": "https://dike.invalid/eli/cl/ley/19496/1997/art_0055_a",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "cbb51c3b3d85bcb0fe1847bc3a49c6c737fad7e4ecaa6b85d9639aa0b9801939": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-procesal-penal/2000/art_0223",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "cd5d5bcafbfd0c1a5171922d026bf5353a5696cde8f951ca4364ebfc68bafba3": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0027",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "note_anchor"
+  },
+  "ce07612145e4ee95ab9292ca3eb5533bdd219e3a142f9bb06a501c99c8e3817c": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0066",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "ce244c7979a72765114133b325ff296c6db233af332ffd32f05c742306b78162": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0114",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "d153b36aa4625684e39157692f5b057f257a57aaae43a04abc66a1e55a8ebfaf": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0118",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "d2c31c3b24832699d69e7a4a70726f31eb62bad6150e9e86c644a88c74b37656": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0166",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "note_anchor"
+  },
+  "d2db0f2990929d52d12f8c91953fdb5aea85637faa84f99acfcbeb607a3ea88e": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0004",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "d33b4be895d161616566ca2bdfdfb56a87f2a233f00cdd7c193fc9971377dab7": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020_m",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "d546a6e64a750a4c655cff99364b273bad1741709e82220c9f29d19ab267f081": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0050",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "d57a927ccd73203aec04e95b0df13a078f3bb0e397f16e6c70766a3e1aea382f": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0122",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "d60d65dd32910739ac8ff7a033cfed2940bd5d57610ef964c67c302c79582da0": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0105",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "d8900caa6115055b1fcdc281884eddcf5484cb5b59815011d7a3373eff96c455": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-organico-tribunales/1943/art_0045",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "d8caa49b94da55062f057a07333011edded40ef85477e413cea6738a6bcd3e57": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-organico-tribunales/1943/art_0415",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "d93d709d5e4df92d62a848db36460fe3b2540bbed2688b4849a5a6b7d5fa32a2": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0006",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "db833156e3937b1eb7d0940de69a87c0edd265db0e3065dea983f3b0f53b6273": {
+   "eli": "https://dike.invalid/eli/cl/ley/16744/1968/art_0066",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "dc02f27ebb4b03878d34c20f22bb387395b9c6cbca26a6cea44e61ade11f2982": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0020_c",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "dd45bb57d52f87a3b7142b2c4391875ba8340b70c96a534ff050f9edf8642c67": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0077_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "dd483523b186de633920c46c970cee9a93794391047e653a2eeda85d93997202": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0104",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "dd698e9b8ef960bf6e3f30525431d42f1611629084ecff79d60d3dd3de9b6b11": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0117",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "dd77ecfc357d4d7c89841ef285fd7bf253f71205ea252f50f0c8224f8e0ae397": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-comercio/1865/art_0559",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "de0483874529dd3dfd4a4f355d54fa5aaff2d5e75feb74c1122bf335428a964e": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0149",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "de070d16fff43cd6429a05b0b15d7987b61e6aa7810be67474b860f95db92378": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-procesal-penal/2000/art_0423",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "dea2f04c7c2b7d064a2877b01aff7b78e1e39dbce4a50a4ce065296fc4217339": {
+   "eli": "https://dike.invalid/eli/cl/ley/19728/2001/art_0025_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "e025eb880a1798b0bfa98f81fa4461f3d3178b2f18c9ae8c5e2a09d42f10de9a": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-comercio/1865/art_0180",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "e0a792a89694ada06b0fc13266a69bfff5633c72df12c5063e338aadaf6a5339": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0109",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "e118d165e01cc5381b9b054d1de1f03ce4d597ae8ddcda68876fc306d4113c00": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-tributario/1974/art_0008",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "e1656c1367735f1838a63b2c8c94da2acaf527323048d988ad024c8853124e17": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0084",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "e76dda9f08e753dec59635f3544ed7d6c6e1e7c868e042886283e2688283d7a6": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0167",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "e77ecbfdc09750f1424c08760fb6a7d6b94f3d407ef7356b542bbb5293df7eaa": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-tributario/1974/art_0092_ter",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "eab7960d3cfaaeced4a70271c3790a29f51b4cf9bcad5d77f02ad8f6deebd3b8": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-procesal-penal/2000/art_0310",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "note_anchor"
+  },
+  "ed16b1b0b868cf8bcebf2648836b42ad622eb8225c0c553881231e1f89acdca1": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0124",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "edf916a0093af72324086c4eedb3b0358990cdcb426a6abb311ab0be2166d4ac": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0109",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "ee0d78cabd2abc3925f87739c9bd79ad7b9ef37e3ae67ca901b2532041b2dd96": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0035",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "f0d12c244024f29400ab2f2c9519e6db79b457689827e16518816f32a9f9e761": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0776",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "f0f33f13ae6aa8f6cc3189342965a5a3cd49ca234c2c270336f03fc973d46e98": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0045",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "f12081fe1e306fc04baee00c05125e8c09cb2c70c3d1da8a6630ad57018bf193": {
+   "eli": "https://dike.invalid/eli/cl/codigo/codigo-del-trabajo/2002/art_0244",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "f24e747d7b922220ab6c00efac0996e050c9e9013777101f5a01c922c134a1a8": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0009",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "f46d6227c444787073e3293c0f75b535a3a75857d6e98c87289d6df86d25a7af": {
+   "detail": "sin identificador de parte de la BCN: el texto no se pudo verificar contra la fuente; además el rótulo es erróneo: es un artículo de la Ley 19.628 en el texto que le da la Ley 21.719, no un artículo de la Ley 21.719",
+   "eli": "https://dike.invalid/eli/cl/ley/21719/2024/art_0014_quater",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "unverified_source"
+  },
+  "f50e679690070af40bc859d30d6c0c4a17629662b425025f6de3f82b42f99858": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0147",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "f594b5732f0a251a51c3df23fc77a146dc043cdbb2887cae2fe5d1c4f32a35f0": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0157",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "f652dc76a9192568cdcd08d88fc8ad5130241bf579efa0f9affb1beddee2c670": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0128",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "f73e51e6f74d82434de90882acddc617cab26f628e7ebf70f8e0248dae831951": {
+   "eli": "https://dike.invalid/eli/cl/ley/18046/1981/art_0031",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "f873a491070e44e71b93b7225e170e1bb13407cdb4708503506ef3af43d0a673": {
+   "eli": "https://dike.invalid/eli/cl/decreto-ley/dl-3500/1980/art_0028",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "f95c19265df0b26a226697adf02308fed3990e948fd3af2a462adb495ad3bf29": {
+   "eli": "https://dike.invalid/eli/cl/codigo/cpc/1902/art_0252",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "fa154ddb5adc03fc856148c9834278ea3db445229d69fe07aed0a62fee830c69": {
+   "eli": "https://dike.invalid/eli/cl/ley/19968/2004/art_0060_bis",
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "reason": "note_anchor"
+  },
+  "ffc66b148f7f00996c703dd79c6a698eac6f616230c583518fb142fbd40b7147": {
+   "eli": "https://dike.invalid/eli/cl/ley/17322/1970/art_0010",
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "reason": "note_anchor"
+  }
+ },
+ "format": "dike-text-defects-v1",
+ "generatedAt": "2026-09-26T21:45:18Z",
+ "method": "extractor anterior a P9 vs. corregido (ancla rnp) sobre el caché BCN; se marca el texto instalado que no es la extracción corregida; P12: también el CITABLE sin bcnIdParte (no verificable contra la fuente); clave: textSha256 instalado",
+ "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+ "packs": [
+  {
+   "affected": 10,
+   "articles": 8543,
+   "pack": "85334a05de1b3728d58e5947296e1ab632876fe233c4540589306734f77edc9f",
+   "unmapped": 5,
+   "unverified": 5
+  },
+  {
+   "affected": 231,
+   "articles": 8543,
+   "pack": "5b6f3481826617dcbf7c6581b6d2bd9c629213050fa2e7999997167f48877aec",
+   "unmapped": 5
+  }
+ ],
+ "stats": {
+  "affected": 10,
+  "articles": 8543,
+  "unmapped": 5,
+  "unverified": 5
+ }
+}

@@ -1,0 +1,216 @@
+{
+ "registry": "aliases",
+ "version": "1.0.0",
+ "relaciones": [
+  "canonical_alias",
+  "legacy_alias",
+  "legacy_mislabel",
+  "ambiguous",
+  "introduced_by",
+  "superseded_id",
+  "not_same_as"
+ ],
+ "entradas": [
+  {
+   "alias": "cc",
+   "canonical_slug": "codigo_civil",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "ccom",
+   "canonical_slug": "codigo_comercio",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "codigo_dipr",
+   "canonical_slug": "codigo_derecho_internacional_privado",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "cot",
+   "canonical_slug": "codigo_organico_tribunales",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "cp",
+   "canonical_slug": "codigo_penal",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "cpc",
+   "canonical_slug": "codigo_procedimiento_civil",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "cpp",
+   "canonical_slug": "codigo_procesal_penal",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "cpr",
+   "canonical_slug": "constitucion_politica",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "ct",
+   "canonical_slug": "codigo_trabajo",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "ctrib",
+   "canonical_slug": "codigo_tributario",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "decreto_106",
+   "canonical_slug": "decreto_106_2004_minvivienda",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "decreto_115",
+   "canonical_slug": "decreto_115_2003_minsegpres",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "decreto_14",
+   "canonical_slug": "decreto_14_2010_minsalud",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "decreto_92",
+   "canonical_slug": "decreto_92_2003_minsegpres",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "decreto_93",
+   "canonical_slug": "decreto_93_2003_minsegpres",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "decreto_94",
+   "canonical_slug": "decreto_94_2003_minsegpres",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "decreto_95",
+   "canonical_slug": "decreto_95_2004_minsegpres",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "dfl_1122",
+   "canonical_slug": "codigo_aguas",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "dfl_1_libre_competencia",
+   "canonical_slug": "dfl_1_2005_mineconomia",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "dl_211_refundido",
+   "canonical_slug": "dfl_1_2005_mineconomia",
+   "relation": "canonical_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "ley_libre_competencia",
+   "canonical_slug": "dfl_1_2005_mineconomia",
+   "relation": "canonical_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "dfl_44",
+   "canonical_slug": "dfl_44_1978_mintrab",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "dfl_458",
+   "canonical_slug": "dfl_458_1976_minvivienda",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "lguc",
+   "canonical_slug": "dfl_458_1976_minvivienda",
+   "relation": "canonical_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "dfl_5_cooperativas",
+   "canonical_slug": "dfl_5_2004_mineconomia",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "ley_general_cooperativas",
+   "canonical_slug": "dfl_5_2004_mineconomia",
+   "relation": "canonical_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "ley_18175",
+   "canonical_slug": "dfl_3_1997_minhacienda",
+   "relation": "legacy_mislabel",
+   "bloqueada": false
+  },
+  {
+   "alias": "ley_general_bancos",
+   "canonical_slug": "dfl_3_1997_minhacienda",
+   "relation": "canonical_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "ds_40_2012",
+   "canonical_slug": "decreto_40_2013_minmedioambiente",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "ds_95_2001",
+   "canonical_slug": "decreto_95_2002_minsegpres",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "organica_poder_judicial",
+   "canonical_slug": "codigo_organico_tribunales",
+   "relation": "legacy_alias",
+   "bloqueada": false
+  },
+  {
+   "alias": "dfl_1",
+   "canonical_slug": null,
+   "relation": "ambiguous",
+   "candidatos": [
+    "codigo_civil (DFL 1/2000 Justicia)",
+    "codigo_trabajo (DFL 1/2002 Trabajo)"
+   ]
+  },
+  {
+   "alias": "ley_21719:art:<N>",
+   "canonical_slug": "ley_19628",
+   "relation": "introduced_by",
+   "nota": "los artículos que Diké atribuye a la 21.719 son de la Ley 19.628 en la expresión que introduce la 21.719, con vigencia desde el 2026-12-01 (S18)"
+  }
+ ]
+}

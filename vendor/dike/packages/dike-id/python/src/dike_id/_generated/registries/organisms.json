@@ -1,0 +1,42 @@
+{
+ "registry": "organisms",
+ "version": "1.0.0",
+ "uso": "regla R4 de S28",
+ "organismos": [
+  {
+   "codigo": "mineconomia",
+   "nombre": "Ministerio de Economía, Fomento y Reconstrucción",
+   "bcn": "http://datos.bcn.cl/recurso/cl/organismo/ministerio-de-economia-fomento-y-reconstruccion"
+  },
+  {
+   "codigo": "minhacienda",
+   "nombre": "Ministerio de Hacienda",
+   "bcn": "http://datos.bcn.cl/recurso/cl/organismo/ministerio-de-hacienda"
+  },
+  {
+   "codigo": "minmedioambiente",
+   "nombre": "Ministerio del Medio Ambiente",
+   "bcn": "http://datos.bcn.cl/recurso/cl/organismo/ministerio-del-medio-ambiente"
+  },
+  {
+   "codigo": "minsalud",
+   "nombre": "Ministerio de Salud",
+   "bcn": "http://datos.bcn.cl/recurso/cl/organismo/ministerio-de-salud"
+  },
+  {
+   "codigo": "minsegpres",
+   "nombre": "Ministerio Secretaría General de la Presidencia",
+   "bcn": "http://datos.bcn.cl/recurso/cl/organismo/ministerio-secretaria-general-de-la-presidencia"
+  },
+  {
+   "codigo": "mintrab",
+   "nombre": "Ministerio del Trabajo y Previsión Social",
+   "bcn": "http://datos.bcn.cl/recurso/cl/organismo/ministerio-del-trabajo-y-prevision-social"
+  },
+  {
+   "codigo": "minvivienda",
+   "nombre": "Ministerio de Vivienda y Urbanismo",
+   "bcn": "http://datos.bcn.cl/recurso/cl/organismo/ministerio-de-vivienda-y-urbanismo"
+  }
+ ]
+}

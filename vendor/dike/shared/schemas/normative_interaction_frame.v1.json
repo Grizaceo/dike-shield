@@ -1,0 +1,202 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "normative_interaction_frame.v1",
+  "title": "Normative Interaction Frame",
+  "description": "Artefacto estructurado de razonamiento jurídico compartible entre agentes del ecosistema LexO. Es el contrato de datos que actúa como hilo conductor entre capas: buscador, investigador, reviewer, case-writer, simulated-trial.",
+  "version": "v1",
+  "date": "2026-04-03",
+  "type": "object",
+  "required": ["frame_id", "created_at", "legal_question", "facts"],
+  "properties": {
+    "frame_id": {
+      "type": "string",
+      "description": "UUID del frame"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string",
+      "description": "Origen del frame: lexcon_hub_mode2 | legal_reviewer | researcher | case_writer"
+    },
+    "legal_question": {
+      "type": "string",
+      "description": "La pregunta jurídica exacta que este frame busca resolver"
+    },
+    "problem_type": {
+      "type": "string",
+      "enum": ["normativo", "jurisprudencial", "procedimental", "administrativo", "doctrinal", "mixto"]
+    },
+    "facts": {
+      "type": "object",
+      "properties": {
+        "known": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Hechos establecidos con respaldo"
+        },
+        "alleged": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Hechos alegados sin confirmar"
+        },
+        "missing": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Hechos necesarios que aún no se conocen"
+        }
+      }
+    },
+    "subjects": {
+      "type": "array",
+      "description": "Sujetos jurídicos relevantes (partes, organismos, tribunal)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "role": {"type": "string", "description": "actor | demandado | organismo | tribunal | tercero"},
+          "label": {"type": "string"}
+        }
+      }
+    },
+    "norms": {
+      "type": "array",
+      "description": "Normas candidatas con lógica deóntica explícita",
+      "items": {
+        "type": "object",
+        "properties": {
+          "gid": {
+            "type": "string",
+            "description": "GID del grafo: cl.norma.ley_20417:art:0127"
+          },
+          "label": {"type": "string"},
+          "operator": {
+            "type": "string",
+            "enum": ["obligacion", "prohibicion", "permiso", "potestad", "sancion", "excepcion", "indeterminado"]
+          },
+          "supuesto_de_hecho": {"type": "string"},
+          "consecuencia_juridica": {"type": "string"},
+          "destinatario": {"type": "string"},
+          "condicion_aplicacion": {"type": "string"},
+          "exceptions": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "status": {
+            "type": "string",
+            "enum": ["vigente", "derogada", "modificada", "indeterminada"]
+          }
+        }
+      }
+    },
+    "norm_relations": {
+      "type": "array",
+      "description": "Relaciones entre normas",
+      "items": {
+        "type": "object",
+        "properties": {
+          "from_gid": {"type": "string"},
+          "to_gid": {"type": "string"},
+          "relation": {
+            "type": "string",
+            "enum": ["jerarquia", "especialidad", "temporalidad", "remision", "compatibilidad", "conflicto", "derogacion", "prevalencia", "laguna", "derrotabilidad"]
+          },
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "admin_acts": {
+      "type": "array",
+      "description": "Actos administrativos relevantes (RCA, resoluciones SMA, etc.)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "type": {"type": "string", "description": "RCA | resolucion_sma | dictamen_cgr | otro"},
+          "label": {"type": "string"},
+          "date": {"type": "string"}
+        }
+      }
+    },
+    "principles": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Principios jurídicos aplicables: precautorio, proporcionalidad, etc."
+    },
+    "deontic_positions": {
+      "type": "array",
+      "description": "Posiciones deónticas de los sujetos respecto a las normas",
+      "items": {
+        "type": "object",
+        "properties": {
+          "subject_id": {"type": "string"},
+          "norm_gid": {"type": "string"},
+          "position": {
+            "type": "string",
+            "enum": ["obligado", "titular_derecho", "titular_potestad", "sancionado", "exceptuado"]
+          }
+        }
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "description": "Conflictos normativos o fácticos identificados",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {"type": "string"},
+          "description": {"type": "string"},
+          "resolution_criteria": {"type": "string"}
+        }
+      }
+    },
+    "hypotheses": {
+      "type": "array",
+      "description": "Hipótesis jurídicas competidoras",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "type": {"type": "string", "enum": ["normativa", "jurisprudencial", "administrativa", "procedimental", "doctrinal"]},
+          "claim": {"type": "string"},
+          "evidence_for": {"type": "array", "items": {"type": "string"}},
+          "evidence_against": {"type": "array", "items": {"type": "string"}},
+          "status": {"type": "string", "enum": ["open", "supported", "rejected", "needs_more_evidence"]}
+        }
+      }
+    },
+    "gaps": {
+      "type": "array",
+      "description": "Lagunas: lo que no tenemos y necesitamos",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {"type": "string"},
+          "impact": {"type": "string", "enum": ["alto", "medio", "bajo"]},
+          "scraper_ticket": {"type": "boolean"}
+        }
+      }
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Confianza general del frame (0–1)"
+    },
+    "validated_by_human": {
+      "type": "boolean",
+      "default": false
+    },
+    "deontic_validation_evidence": {
+      "type": "object",
+      "default": {},
+      "description": "5.6 — Evidencia del validador deóntico (P16). Requerida si deontic_validated=true"
+    },
+    "deontic_validated": {
+      "type": "boolean",
+      "default": false,
+      "description": "5.6 — Lógica deóntica defeasible: false hasta que exista validador. P16: requiere deontic_validation_evidence no vacío."
+    }
+  }
+}

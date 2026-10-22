@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dike-cli"
+version = "0.1.0"
+description = "Diké — verificación de citas normativas chilenas contra un corpus local, con commitment firmado y verificable por un tercero"
+readme = "README.md"
+requires-python = ">=3.11"
+# Sin campo `license`: la licencia todavía no está decidida (ver README).
+dependencies = [
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "rich>=13.0",
+    "requests>=2.28",
+    "cryptography>=42.0",
+    # Identificadores GID. Vive en este mismo repositorio (packages/dike-id) y
+    # no está publicado: se instala antes, desde su carpeta.
+    "dike-id",
+]
+
+[project.optional-dependencies]
+# Para verificar escritos en .docx o .pdf. Sin esto, .md, .txt o texto pegado.
+documentos = [
+    "python-docx>=1.0",
+    "pypdf>=4.0",
+]
+test = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+dike = "lexo_cli.main:main"
+
+[tool.setuptools.packages.find]
+include = ["lexo_cli*", "shared", "shared.*"]
+exclude = ["lexo_cli.tests*"]
+
+[tool.setuptools.package-data]
+lexo_cli = ["**/*.json", "**/*.jsonld", "**/*.yaml", "**/*.ttl"]
+shared = ["**/*.json", "**/*.yaml"]
+
+[tool.uv.sources]
+dike-id = { path = "packages/dike-id/python", editable = true }
+
+[tool.pytest.ini_options]
+testpaths = ["lexo_cli/tests"]
+python_files = "test_*.py"

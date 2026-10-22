@@ -1,0 +1,1 @@
+{"@context":{"@version":1.1,"Article":"https://dike.invalid/vocab/Article","LegalResource":"https://dike.invalid/vocab/LegalResource","TemporalWindow":"https://dike.invalid/vocab/TemporalWindow","eli":"http://data.europa.eu/eli/ontology#","lexo":"https://dike.invalid/vocab/","prov":"http://www.w3.org/ns/prov#","sourceUri":{"@id":"prov:wasDerivedFrom","@type":"@id"}}}

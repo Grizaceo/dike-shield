@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dike-id"
+version = "2.0.0"
+description = "Identificadores GID v2 de Diké: gramática, registros y biblioteca de referencia"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+dike_id = ["_generated/*.json", "_generated/registries/*.json"]

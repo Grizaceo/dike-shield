@@ -1,0 +1,58 @@
+{
+ "registry": "courts",
+ "version": "1.0.0",
+ "decision": "rol real con tipo registrado (Cristóbal, 2026-09-29); ECLI, RIT y RUC son alias (S26)",
+ "estado_alta": "propuesta",
+ "regla": "solo se registran tribunales y tipos observados en el corpus; un tipo nuevo es un alta, no un cambio de gramática",
+ "medicion": "Vault/Lexo/Vigente, 2026-09-29: 1.252 sentencias con `rol` en el frontmatter y menciones de rol TC en el texto",
+ "tribunales": [
+  {
+   "court_slug": "ta_1", "nombre": "Primer Tribunal Ambiental", "valor_vault": "Tribunal Ambiental 1TA",
+   "rol_tipos": [
+    {"tipo": "r", "forma": "R-{n}-{aaaa}", "significado": "reclamación", "observados": 48}
+   ]
+  },
+  {
+   "court_slug": "ta_2", "nombre": "Segundo Tribunal Ambiental", "valor_vault": "Tribunal Ambiental 2TA",
+   "rol_tipos": [
+    {"tipo": "r", "forma": "R-{n}-{aaaa}", "significado": "reclamación", "observados": 191},
+    {"tipo": "s", "forma": "S-{n}-{aaaa}", "significado": "solicitud", "observados": 24}
+   ],
+   "varias_decisiones_en_un_rol": ["R-140-2016: 2018-06-05 y 2020-11-20 (S27)"]
+  },
+  {
+   "court_slug": "ta_3", "nombre": "Tercer Tribunal Ambiental", "valor_vault": "Tribunal Ambiental 3TA",
+   "rol_tipos": [
+    {"tipo": "r", "forma": "R-{n}-{aaaa}", "significado": "reclamación", "observados": 105},
+    {"tipo": "s", "forma": "S-{n}-{aaaa}", "significado": "solicitud", "observados": 55},
+    {"tipo": "d", "forma": "D-{n}-{aaaa}", "significado": "demanda por daño ambiental",
+     "observados": 11, "nota": "en AMBIENTAL/Artefactos_Tecnicos el rol viene sin año («D-74»): no se mintea hasta conocer el año"}
+   ]
+  },
+  {
+   "court_slug": "tc", "nombre": "Tribunal Constitucional",
+   "anio": "el rol trae el año con dos dígitos («1234-11-INA»); se expande a cuatro",
+   "rol_tipos": [
+    {"tipo": "ina", "forma": "{n}-{aa}-INA", "significado": "inaplicabilidad por inconstitucionalidad", "observados": 1029},
+    {"tipo": "cpr", "forma": "{n}-{aa}-CPR", "significado": "control preventivo", "observados": 473},
+    {"tipo": "caa", "forma": "{n}-{aa}-CAA", "observados": 66},
+    {"tipo": "cpt", "forma": "{n}-{aa}-CPT", "observados": 53},
+    {"tipo": "cco", "forma": "{n}-{aa}-CCO", "observados": 36},
+    {"tipo": "cds", "forma": "{n}-{aa}-CDS", "observados": 17},
+    {"tipo": "inc", "forma": "{n}-{aa}-INC", "significado": "inconstitucionalidad", "observados": 6}
+   ],
+   "nota": "los tipos sin significado se registran por observación; su glosa queda para la revisión humana"
+  },
+  {
+   "court_slug": "cs", "nombre": "Corte Suprema", "valor_vault": "Corte Suprema - Sala de Unificacion",
+   "rol_tipos": [
+    {"tipo": "rol", "forma": "{n}-{aaaa} (con o sin punto de miles)", "significado": "rol de la Corte Suprema",
+     "observados": 819, "nota": "la sala no es identidad; 10 sentencias del Vault no traen rol y no se mintean"}
+   ]
+  }
+ ],
+ "pendientes": [
+  "Cortes de Apelaciones: 37 menciones «Protección-n-aaaa» sin sentencia en el Vault; se registran con su sede cuando exista una",
+  "juzgados (RIT «X-n-aaaa», 6.388 menciones) y RUC (819): alias, no tribunales registrados todavía"
+ ]
+}

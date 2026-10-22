@@ -1,0 +1,27 @@
+{
+ "registry": "unit-types",
+ "version": "1.0.0",
+ "tipos": [
+  {"code": "art", "meaning": "artículo", "bcn_tipo": [6]},
+  {"code": "inc", "meaning": "inciso (ordinal estructural, S9)"},
+  {"code": "num", "meaning": "numeral"},
+  {"code": "lit", "meaning": "literal"},
+  {"code": "lib", "meaning": "libro", "bcn_tipo": [0]},
+  {"code": "tit", "meaning": "título", "bcn_tipo": [1]},
+  {"code": "cap", "meaning": "capítulo", "bcn_tipo": [5]},
+  {"code": "par", "meaning": "párrafo o §", "bcn_tipo": [3, 4]},
+  {"code": "sec", "meaning": "sección", "bcn_tipo": [15], "introducido_en": "2.0.0-rc.1"},
+  {"code": "div", "meaning": "división romana sin rótulo de tipo", "bcn_tipo": [2], "introducido_en": "2.0.0-rc.1"},
+  {"code": "unn", "meaning": "unidad sin número: pre, prom, head, other", "bcn_tipo": [null]},
+  {"code": "unres", "meaning": "fragmento sin unidad jurídica probada"}
+ ],
+ "no_son_tipos": {
+  "bcn_tipo_13_doble_articulado": "separa Obras (S18)",
+  "bcn_tipo_7_9_transitorios": "clase :trans del artículo / tit:trans",
+  "chunk": "fuera del GID desde 2.0.0-rc.2 (S24): el id del fragmento es del índice y se enlaza por un campo gid"
+ },
+ "huecos": [
+  "anexos (candidato anx, 2.1)",
+  "literales dobles «aa)» (no observados en normas; sí «ii)» romanos en sentencias)"
+ ]
+}

@@ -1,0 +1,378 @@
+{
+  "attribution": "Ley Chile – Biblioteca del Congreso Nacional",
+  "format": "lexo-leychile-norms-v1",
+  "norms": {
+    "CPC": {
+      "idNorma": "22740",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "CPC/source/CPC_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "22740"
+    },
+    "CPP": {
+      "idNorma": "176595",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "CPP/source/CPP_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "176595"
+    },
+    "CPR": {
+      "idNorma": "242302",
+      "idNormaSource": "export ausente; idNorma declarado y verificado contra el título de LeyChile",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "242302"
+    },
+    "Codigo_Civil": {
+      "idNorma": "172986",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "Codigo_Civil/source/COD_CIVIL_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "172986"
+    },
+    "Codigo_Comercio": {
+      "idNorma": "1974",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "COD_COMERCIO_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "1974"
+    },
+    "Codigo_Penal": {
+      "idNorma": "1984",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "Codigo_Penal/source/COD_PENAL_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "1984"
+    },
+    "Codigo_Trabajo": {
+      "idNorma": "207436",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "COD_TRABAJO_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "207436"
+    },
+    "Codigo_Tributario": {
+      "idNorma": "6374",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "COD_TRIBUTARIO_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "6374"
+    },
+    "DFL_1122": {
+      "idNorma": "5605",
+      "idNormaSource": "export ausente; Código de Aguas, verificado contra canonical_path y título de LeyChile",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "DL_3500": {
+      "idNorma": "7147",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "DL_3500_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "7147"
+    },
+    "LEY_17322": {
+      "idNorma": "28919",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_17322_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "28919"
+    },
+    "LEY_18046": {
+      "idNorma": "29473",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_18046_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "29473"
+    },
+    "LEY_18092": {
+      "idNorma": "29517",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_18092_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "29517"
+    },
+    "LEY_18120": {
+      "idNorma": "29544",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_18120_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "29544"
+    },
+    "LEY_18216": {
+      "idNorma": "29636",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_18216_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "29636"
+    },
+    "LEY_18918": {
+      "idNorma": "30289",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_18918_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "30289"
+    },
+    "LEY_19628": {
+      "idNorma": "141599",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_19628_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "141599"
+    },
+    "LEY_19728": {
+      "idNorma": "184979",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_19728_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "184979"
+    },
+    "LEY_19799": {
+      "idNorma": "196640",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_19799_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "196640"
+    },
+    "LEY_20066": {
+      "idNorma": "242648",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_20066_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "242648"
+    },
+    "LEY_20084": {
+      "idNorma": "244803",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_20084_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "244803"
+    },
+    "LEY_20886": {
+      "idNorma": "1085545",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_20886_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "1085545"
+    },
+    "Ley_16744": {
+      "idNorma": "28650",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_16744_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "28650"
+    },
+    "Ley_19496": {
+      "idNorma": "61438",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_19496_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "61438"
+    },
+    "Ley_19968": {
+      "idNorma": "229557",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_19968_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "229557"
+    },
+    "Ley_20000": {
+      "idNorma": "235507",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_20000_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "235507"
+    },
+    "Ley_20720": {
+      "idNorma": "1058072",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "LEY_20720_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "1058072"
+    },
+    "Ley_21719": {
+      "idNorma": "1209272",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "Ley_21719_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "1209272"
+    },
+    "Organica_Poder_Judicial": {
+      "idNorma": "25563",
+      "idNormaSource": "cabecera del export local",
+      "localExport": "Organica_Poder_Judicial/source/COT_raw.html",
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "25563"
+    },
+    "Decreto_106": {
+      "idNorma": "229755",
+      "idNormaSource": "full_text.md de la vault (verificado contra LeyChile navegación)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "Decreto_115": {
+      "idNorma": "217645",
+      "idNormaSource": "full_text.md de la vault (verificado contra LeyChile navegación)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "Decreto_14": {
+      "idNorma": "1015936",
+      "idNormaSource": "full_text.md de la vault (verificado contra LeyChile navegación)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "Decreto_92": {
+      "idNorma": "217789",
+      "idNormaSource": "full_text.md de la vault (verificado contra LeyChile navegación)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "Decreto_93": {
+      "idNorma": "217790",
+      "idNormaSource": "full_text.md de la vault (verificado contra LeyChile navegación)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "Decreto_94": {
+      "idNorma": "216309",
+      "idNormaSource": "full_text.md de la vault (verificado contra LeyChile navegación)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "Decreto_95": {
+      "idNorma": "225472",
+      "idNormaSource": "full_text.md de la vault (verificado contra LeyChile navegación)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "LEY_21013": {
+      "idNorma": "1103697",
+      "idNormaSource": "full_text.md de la vault (verificado contra LeyChile navegación)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "Ley_19828": {
+      "idNorma": "202950",
+      "idNormaSource": "full_text.md de la vault (verificado contra LeyChile navegación)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "Ley_20506": {
+      "idNorma": "1024068",
+      "idNormaSource": "full_text.md de la vault (verificado contra LeyChile navegación)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "Ley_20531": {
+      "idNorma": "1028994",
+      "idNormaSource": "full_text.md de la vault (verificado contra LeyChile navegación)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "Ley_20732": {
+      "idNorma": "1060038",
+      "idNormaSource": "full_text.md de la vault (verificado contra LeyChile navegación)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    },
+    "Codigo_Aeronautico": {
+      "idNorma": "30287",
+      "idNormaSource": "frontmatter full_text.md (verificado contra tabla conocida del skill)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "30287"
+    },
+    "Codigo_DIPr": {
+      "idNorma": "12820",
+      "idNormaSource": "frontmatter full_text.md (verificado contra tabla conocida del skill)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "12820"
+    },
+    "Codigo_Justicia_Militar": {
+      "idNorma": "18914",
+      "idNormaSource": "frontmatter full_text.md (verificado contra tabla conocida del skill)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "18914"
+    },
+    "Codigo_Mineria": {
+      "idNorma": "1133574",
+      "idNormaSource": "frontmatter full_text.md (verificado contra tabla conocida del skill — 29668 es el MENSAJE presidencial)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "1133574"
+    },
+    "Codigo_Sanitario": {
+      "idNorma": "5595",
+      "idNormaSource": "frontmatter full_text.md (verificado contra tabla conocida del skill)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "5595"
+    },
+    "Ley_18575_Bases_Adm_Estado": {
+      "idNorma": "29967",
+      "idNormaSource": "frontmatter full_text.md (verificado contra buscarjson — LEY ORGANICA CONSTITUCIONAL DE BASES GENERALES DE LA ADMINISTRACION DEL ESTADO)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "29967"
+    },
+    "Ley_18695_Municipalidades": {
+      "idNorma": "30077",
+      "idNormaSource": "frontmatter full_text.md (verificado contra buscarjson — LEY ORGANICA CONSTITUCIONAL DE MUNICIPALIDADES)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "30077"
+    },
+    "Ley_18834_Estatuto_Administrativo": {
+      "idNorma": "30210",
+      "idNormaSource": "frontmatter full_text.md (verificado contra tabla conocida del skill)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "30210"
+    },
+    "Ley_18883_Estatuto_Administrativo_Municipal": {
+      "idNorma": "30256",
+      "idNormaSource": "frontmatter full_text.md (verificado contra buscarjson — APRUEBA ESTATUTO ADMINISTRATIVO PARA FUNCIONARIOS MUNICIPALES)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "30256"
+    },
+    "Ley_19300_Bases_Medio_Ambiente": {
+      "idNorma": "30667",
+      "idNormaSource": "frontmatter full_text.md (verificado — LEY SOBRE BASES GENERALES DEL MEDIO AMBIENTE)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "30667"
+    },
+    "Ley_19378_APS": {
+      "idNorma": "30745",
+      "idNormaSource": "frontmatter full_text.md (verificado contra buscarjson — ESTABLECE ESTATUTO DE ATENCION PRIMARIA DE SALUD MUNICIPAL)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": "30745"
+    },
+    "Ley_19880_Procedimiento_Administrativo": {
+      "idNorma": "210676",
+      "idNormaSource": "frontmatter full_text.md (verificado — ESTABLECE BASES DE LOS PROCEDIMIENTOS ADMINISTRATIVOS)",
+      "localExport": null,
+      "vaultFrontmatterDisagrees": false,
+      "vaultFrontmatterIdNorma": ""
+    }
+  },
+  "note": "Mapea cada carpeta-norma de Vigente/Ley_General a su idNorma de LeyChile. El frontmatter de la vault trae idNorma equivocado en 12 carpetas (ver campo vaultFrontmatterDisagrees): resolver una cita por ese id apuntaría a otra norma.| 2026-08-13 Fase A: id_norma de frontmatter corregido en 12 carpetas según idNorma del catálogo (verificado contra vault)."
+}
