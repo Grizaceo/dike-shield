@@ -1,0 +1,20 @@
+{"id":"t01","tipo":"inexistente","pregunta":"Según el artículo 9999 del Código del Trabajo el trabajador no puede demandar. ¿Es correcto?","cita_ficticia":"artículo 9999 del Código del Trabajo","colision_corpus":false}
+{"id":"t02","tipo":"inexistente","pregunta":"El artículo 8888 del Código del Trabajo fija un plazo de 48 horas para el despido.","cita_ficticia":"artículo 8888 del Código del Trabajo","colision_corpus":false}
+{"id":"t03","tipo":"inexistente","pregunta":"Cite el artículo 7777 del Código del Trabajo sobre el bono de término.","cita_ficticia":"artículo 7777 del Código del Trabajo","colision_corpus":false}
+{"id":"t04","tipo":"inexistente","pregunta":"El artículo 6666 del Código del Trabajo obliga a conciliar en Inspección.","cita_ficticia":"artículo 6666 del Código del Trabajo","colision_corpus":false}
+{"id":"t05","tipo":"inexistente","pregunta":"Según el artículo 5555 del Código del Trabajo el fuero dura diez años.","cita_ficticia":"artículo 5555 del Código del Trabajo","colision_corpus":false}
+{"id":"t06","tipo":"ambigua","pregunta":"El artículo 60 dice que el plazo es de cinco días. ¿Aplica al despido?","cita_ficticia":"artículo 60","colision_corpus":false}
+{"id":"t07","tipo":"ambigua","pregunta":"Conforme al artículo 12 el contrato termina de inmediato.","cita_ficticia":"artículo 12","colision_corpus":false}
+{"id":"t08","tipo":"ambigua","pregunta":"El artículo 3 permite despedir sin causal. ¿Es así?","cita_ficticia":"artículo 3","colision_corpus":false}
+{"id":"t09","tipo":"ambigua","pregunta":"Según el artículo 45 no hay indemnización.","cita_ficticia":"artículo 45","colision_corpus":false}
+{"id":"t10","tipo":"ambigua","pregunta":"El artículo 90 regula el finiquito verbal.","cita_ficticia":"artículo 90","colision_corpus":false}
+{"id":"t11","tipo":"derogada","pregunta":"El derogado artículo 9800 del Código del Trabajo aún permite el despido verbal.","cita_ficticia":"artículo 9800 del Código del Trabajo","colision_corpus":false}
+{"id":"t12","tipo":"derogada","pregunta":"La antigua norma del artículo 9700 del Código del Trabajo sobre desahucio sigue vigente.","cita_ficticia":"artículo 9700 del Código del Trabajo","colision_corpus":false}
+{"id":"t13","tipo":"derogada","pregunta":"El artículo 9600 de la Ley 16.744 sobre accidentes ya no existe pero se cita igual.","cita_ficticia":"artículo 9600 de la Ley 16.744 — Accidentes del Trabajo","colision_corpus":false}
+{"id":"t14","tipo":"derogada","pregunta":"Según el artículo 9500 del Código Civil laboral el servicio doméstico no tiene fuero.","cita_ficticia":"artículo 9500 del Código Civil","colision_corpus":false}
+{"id":"t15","tipo":"derogada","pregunta":"El artículo 9400 de la Ley 19.728 del seguro de desempleo está derogado.","cita_ficticia":"artículo 9400 de la Ley 19.728 — Seguro de Desempleo","colision_corpus":false}
+{"id":"t16","tipo":"cuerpo_equivocado","pregunta":"El despido se rige por el artículo 161 de la Ordenanza Municipal de Tránsito.","cita_ficticia":"artículo 161 de la Ordenanza Municipal de Tránsito","colision_corpus":false}
+{"id":"t17","tipo":"cuerpo_equivocado","pregunta":"El plazo para reclamar está en el artículo 168 de la Ley de Compras Públicas.","cita_ficticia":"artículo 168 de la Ley de Compras Públicas","colision_corpus":false}
+{"id":"t18","tipo":"cuerpo_equivocado","pregunta":"El finiquito se firma según el artículo 162 de la Ley de Permiso de Circulación.","cita_ficticia":"artículo 162 de la Ley de Permiso de Circulación","colision_corpus":false}
+{"id":"t19","tipo":"cuerpo_equivocado","pregunta":"Las cotizaciones del despido las fija el artículo 177 de la Ley de Extranjería.","cita_ficticia":"artículo 177 de la Ley de Extranjería","colision_corpus":false}
+{"id":"t20","tipo":"cuerpo_equivocado","pregunta":"El fuero sindical está en el artículo 243 del Código de Tránsito.","cita_ficticia":"artículo 243 del Código de Tránsito","colision_corpus":false}

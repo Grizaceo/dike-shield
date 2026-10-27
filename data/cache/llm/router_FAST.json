@@ -1,0 +1,8 @@
+{
+  "text": "{\"ruta\":\"responder\",\"razon\":\"escenario despido cubierto por el corpus\"}",
+  "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "lane": "FAST",
+  "latency_ms": 1200,
+  "agent": "router",
+  "recorded_at": "2026-10-27"
+}

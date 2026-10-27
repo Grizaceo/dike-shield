@@ -1,0 +1,8 @@
+{
+  "text": "{\"decision\":\"reparar\",\"razon\":\"Diké marcó citas en FALLO; hay base verificada para reescribir.\",\"acciones\":[{\"cita_raw\":\"artículo 14 del Código del Trabajo\",\"accion\":\"retirar\",\"reemplazo_gid\":null,\"razon\":\"Diké: AMBIGUOUS\"}]}",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "lane": "DEEP",
+  "latency_ms": 8120,
+  "agent": "judge",
+  "recorded_at": "2026-10-27"
+}

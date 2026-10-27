@@ -1,0 +1,29 @@
+services:
+  shield-db:
+    image: postgres:16
+    container_name: shield-db
+    ports:
+      - "55432:5432"
+    environment:
+      POSTGRES_USER: shield
+      POSTGRES_PASSWORD: ${SHIELD_DB_PASSWORD}
+      POSTGRES_DB: shield
+    volumes:
+      - shield-db-data:/var/lib/postgresql/data
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U shield -d shield"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    networks:
+      - default
+      - zetaris
+
+volumes:
+  shield-db-data:
+
+networks:
+  zetaris:
+    external: true
+    name: zetaris_default

@@ -1,0 +1,17 @@
+{
+  "name": "dike-shield-engines",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "HTTP sidecar translating DESIGN.md /hmem/* onto the Meterless H-MEM reference",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "test": "tsx --test test/sidecar.test.ts",
+    "conformance": "npm test --prefix hmem/reference && npx tsx hmem/conformance/runner.ts && npm test --prefix markovian/reference && npx tsx markovian/conformance/runner.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "tsx": "^4.19.0"
+  }
+}

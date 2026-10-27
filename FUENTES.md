@@ -29,6 +29,7 @@ pudo leer directamente queda marcado **por verificar** y se resuelve en la fase 
 | Zetaris no lee archivos del laptop: hay que servirlos como base de datos, API REST o bucket tipo S3 | Setup Guide, "Files on your laptop" (p. 22) | 2026-10-21 |
 | Recetas y reglas para agentes (Lightning SQL, una sentencia por request, no imprimir credenciales) | https://github.com/zetaris/getting-started (README, AGENTS.md) | 2026-10-21 |
 | Sintaxis Lightning SQL para registrar una base Postgres como fuente | `~/zetaris-getting-started/docs/guides/zetaris-lightning-sql-commands.md` §4.1–4.3: `CREATE DATASOURCE <name> DESCRIBE BY '…' OPTIONS (jdbcdriver 'org.postgresql.Driver', jdbcurl 'jdbc:postgresql://…', username '…', password '…', fetchsize '1000')`; luego `REGISTER DATASOURCE TABLE '<table>' FROM <datasource>` o `REGISTER DATASOURCE TABLES FROM <datasource>`. Ejemplo oficial `crm_pg`. Dry-run obligatorio antes de crear objetos en vivo. | 2026-10-22 |
+| Red Docker del compose local de Zetaris | `docker network ls`: nombre real `zetaris_default` (no `zetaris-platform_default`) | 2026-10-27 |
 
 ## Meterless
 
@@ -40,8 +41,8 @@ pudo leer directamente queda marcado **por verificar** y se resuelve en la fase 
 | `meterless/auto` es un modo de ruteo y puede usar un modelo no NVIDIA: para el premio hay que fijar un lane con Nemotron | Setup Guide, 4.6 | 2026-10-21 |
 | Engines: H-MEM, World Model, Markovian y Scout Intent; cada uno es una spec AGENTS.md con referencia ejecutable y suite de conformidad | https://github.com/meterless/meterless (README) | 2026-10-21 |
 | La conformidad de H-MEM corre en TypeScript: `HMEM_IMPL=<build> npx tsx conformance/runner.ts` | https://github.com/meterless/meterless/blob/main/engines/hmem/AGENTS.md | 2026-10-21 |
-| Comando de conformidad de Markovian | **por verificar** en `engines/markovian/` del mismo repo | — |
-| Prompts IDEATE / IMPLEMENT / COMBINE / HARDEN / POWER (incluye "Add Meterless as a provider") | https://meterless.ai/engines.html (citado por el Setup Guide; **por verificar** al abrirlo) | — |
+| Comando de conformidad de Markovian | `MARKOVIAN_IMPL=/abs/path/to/your/index.ts npx tsx conformance/runner.ts` | https://github.com/meterless/meterless/blob/main/engines/markovian/AGENTS.md (raw, 2026-10-27) | 2026-10-27 |
+| Prompts IDEATE / IMPLEMENT / COMBINE / HARDEN / POWER (incluye "Add Meterless as a provider") | https://meterless.ai/engines.html (sección de prompts; POWER incluye el contrato de provider) | 2026-10-27 |
 
 ## NVIDIA
 
@@ -49,7 +50,7 @@ pudo leer directamente queda marcado **por verificar** y se resuelve en la fase 
 |---|---|---|
 | Endpoints de Nemotron en build.nvidia.com/models (algunos "Free Endpoint" para prototipos, con límites) | Setup Guide, 4.3 | 2026-10-21 |
 | Lanes sugeridos: `nvidia/nemotron-3.5-lightning-30b-a3b` (rápido) y `nvidia/nemotron-3.5-super-vl-120b-a12b` (profundo) | Setup Guide, 4.4 ("examples, not guaranteed entitlements") | 2026-10-21 |
-| Nombres exactos disponibles en el catálogo y en Nightshift | **por verificar** en https://build.nvidia.com/models | — |
+| Nombres exactos en Nightshift GET /models (esta máquina) | Cloud: `nvidia/nemotron-3.5-lightning-30b-a3b`, `nvidia/nemotron-3-ultra-550b-a55b` (más Bolt/Embed/Rerank). Super VL 120B no aparece; DEEP asentado = Ultra 550B. 86 ids, HTTP 200 | 2026-10-27 |
 
 ## Corpus de Diké (dato previo)
 

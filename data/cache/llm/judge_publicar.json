@@ -1,0 +1,8 @@
+{
+  "text": "{\"decision\":\"publicar\",\"razon\":\"todas verificadas\",\"acciones\":[{\"cita_raw\":\"artículo 161 del Código del Trabajo\",\"accion\":\"mantener\",\"reemplazo_gid\":null,\"razon\":\"verificada por Diké\"},{\"cita_raw\":\"artículo 168 del Código del Trabajo\",\"accion\":\"mantener\",\"reemplazo_gid\":null,\"razon\":\"verificada por Diké\"}]}",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "lane": "DEEP",
+  "latency_ms": 6400,
+  "agent": "judge",
+  "recorded_at": "2026-10-27"
+}

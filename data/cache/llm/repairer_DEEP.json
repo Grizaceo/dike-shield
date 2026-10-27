@@ -1,0 +1,8 @@
+{
+  "text": "El despido por necesidades de la empresa se rige principalmente por el artículo 161 del Código del Trabajo, que permite al empleador poner término al contrato cuando concurren circunstancias objetivas de la empresa. El trabajador despedido puede reclamar esa decisión ante los tribunales laborales, conforme al artículo 168 del Código del Trabajo, que otorga el plazo para reclamar el despido ante el juzgado de letras del trabajo.",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "lane": "DEEP",
+  "latency_ms": 18440,
+  "agent": "repairer",
+  "recorded_at": "2026-10-27"
+}

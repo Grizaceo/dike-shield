@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-10-27",
+  "source": "Nightshift live Fase 2 (CURSOR_LOG 2026-10-27T04:36). FAST nvidia/nemotron-3.5-lightning-30b-a3b 26922ms; DEEP nvidia/nemotron-3-ultra-550b-a55b. Draft had artículo 14 AMBIGUOUS at position 391; Diké stripped it. Audit: artículo 9999 in, out of the final text. Nightshift TCP 192.168.122.50:8088 unreachable at packaging; LLM texts reconstructed from that live trace.",
+  "models": {
+    "FAST": "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "DEEP": "nvidia/nemotron-3-ultra-550b-a55b"
+  }
+}

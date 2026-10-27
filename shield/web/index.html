@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diké Shield</title>
+  <link rel="stylesheet" href="/web/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Diké Shield</h1>
+    <p>Interceptor de citas para borradores laborales chilenos. Nemotron redacta; Diké prueba.</p>
+    <div id="sample-banner" class="banner" hidden>
+      Modo muestra: respuestas grabadas de una corrida real del {fecha}
+    </div>
+    <nav>
+      <button data-go="ask">Preguntar</button>
+      <button data-go="result" class="ghost">Resultado</button>
+      <button data-go="trace" class="ghost">Traza</button>
+      <button data-go="diff" class="ghost">Antes y después</button>
+      <button data-go="dash" class="ghost">Banco</button>
+    </nav>
+  </header>
+  <main>
+    <section id="ask" class="active">
+      <div class="row">
+        <label>Escenario
+          <select id="escenario">
+            <option value="despido">Despido</option>
+            <option value="finiquito">Finiquito</option>
+            <option value="libre">Libre</option>
+          </select>
+        </label>
+        <label>Modo
+          <select id="modo">
+            <option value="pregunta">Pregunta</option>
+            <option value="auditoria">Auditar texto pegado</option>
+          </select>
+        </label>
+        <button class="primary" id="load-despido" type="button">Cargar despido_01</button>
+        <button class="primary" id="load-finiquito" type="button">Cargar finiquito_01</button>
+      </div>
+      <label for="entrada">Pregunta o texto</label>
+      <textarea id="entrada" placeholder="Escribe una pregunta laboral o pega un borrador…"></textarea>
+      <p><button class="primary" id="enviar" type="button">Enviar al escudo</button></p>
+      <p id="ask-err" class="err"></p>
+    </section>
+
+    <section id="result">
+      <h2>Resultado</h2>
+      <p id="decision"></p>
+      <div id="citas"></div>
+      <p id="final"></p>
+      <p><a id="commitment" hidden href="#">Descargar commitment (ZIP)</a></p>
+      <p class="disclaimer" id="receta" hidden>
+        Receta offline: extraiga commitment.json y commitment.sig.json del ZIP,
+        verifique la firma Ed25519 con la clave pública de demo incluida.
+        Diké no evalúa si la norma respalda el argumento; eso es juicio del abogado.
+      </p>
+      <p class="disclaimer">Diké no evalúa si la norma respalda el argumento; eso es juicio del abogado.</p>
+      <p class="disclaimer" id="opinion-modelo"></p>
+    </section>
+
+    <section id="trace">
+      <h2>Traza</h2>
+      <div class="trace" id="trace-body"></div>
+    </section>
+
+    <section id="diff">
+      <h2>Antes y después</h2>
+      <div class="split">
+        <div>
+          <h3>Borrador</h3>
+          <p id="before"></p>
+        </div>
+        <div>
+          <h3>Respuesta final</h3>
+          <p id="after"></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="dash">
+      <h2>Banco adversarial</h2>
+      <p id="dash-label">Cifras medidas sobre 0 preguntas sintéticas; no son una estimación de la tasa en producción</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Lane</th><th>Escudo</th><th>n</th><th>Citas</th><th>No probadas</th><th>Tasa</th><th>Modelo</th>
+          </tr>
+        </thead>
+        <tbody id="dash-body"></tbody>
+      </table>
+      <p><button class="primary" id="run-bench" type="button">Correr banco (n del servidor)</button></p>
+      <p id="dash-err" class="err"></p>
+    </section>
+  </main>
+  <footer>Corpus chile-base pack_hash af1422d66d1e6eee. Solo datos sintéticos.</footer>
+  <script src="/web/app.js"></script>
+</body>
+</html>

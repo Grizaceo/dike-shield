@@ -20,6 +20,10 @@ __pycache__/
 node_modules/
 engines/**/dist/
 
+# QA renders of the pitch deck (the .pptx is the deliverable)
+docs/deck/slide-*.jpg
+docs/deck/*.pdf
+
 # Datos de ejecución (las respuestas grabadas para SAMPLE_MODE sí se versionan en data/cache/)
 data/runtime/
 *.log
